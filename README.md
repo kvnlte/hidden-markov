@@ -6,7 +6,7 @@ The model parameters as trained by the program will be stored in model_params.cs
 type | first_term | second_term | value
 ---- | ---------- | ----------- | -----
 e    | x          | y           | e( x given y )
-q    | y(i)       | y(i-1)      | q( y(y(i) given y(i-1) )
+q    | y(i)       | y(i-1)      | q( y(i) given y(i-1) )
 
 
 The training data will also be evaluated, and stored in eval_trgdata.csv in the following format:
