@@ -24,7 +24,6 @@ class TweetPOSParser:
 
         prev_tag = 'STOP'
 
-        count = 0
 
         for line in input_file:
             line = line.strip()   # remove trailing whitespace
@@ -50,13 +49,8 @@ class TweetPOSParser:
             self.__increm_counters(prev_tag, curr_tag, curr_word)
 
             prev_tag = curr_tag
-            print curr_word, curr_tag
+            # print curr_word, curr_tag
 
-
-            count += 1
-
-            if count > 15:
-                break
 
         ##
         ## end of file reached
@@ -72,6 +66,7 @@ class TweetPOSParser:
         # print_counter_data(self.q_data_counter, "q_data_counter")
         print_counter_data(self.tag_counter, "tag_counter")
 
+        self.__data_loaded = True
         input_file.close()
 
     def __increm_counters(self, prev_tag, curr_tag, curr_word):
@@ -83,7 +78,10 @@ class TweetPOSParser:
         self.tag_counter[curr_tag] += 1
 
 
-    def save_data(self, output_filename=self.output_filename)
+    def save_data(self, output_filename=None):
+        if output_filename == None:
+            output_filename = self.output_filename
+
         output_file = open(output_filename, 'w')
 
 
@@ -118,4 +116,4 @@ if __name__ == "__main__":
     tweet_parser = TweetPOSParser(args.i, args.o)
     tweet_parser.load_data()
 
-    sys.stdout.write("\n\nCompleted.\n\n")
+    sys.stdout.write("\n\n----- Completed Parse -----\n\n")
