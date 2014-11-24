@@ -1,6 +1,7 @@
 import sys
 from collections import Counter
 import argparse
+import csv
 
 
 class TweetPOSParser:
@@ -70,11 +71,16 @@ class TweetPOSParser:
         input_file.close()
 
     def __increm_counters(self, prev_tag, curr_tag, curr_word):
-        e = (curr_word, curr_tag)
-        q = (curr_tag, prev_tag)
+        x_y = (curr_word, curr_tag)
+        y_yp = (curr_tag, prev_tag)
 
-        self.e_data_counter[e] += 1
-        self.q_data_counter[q] += 1
+        # to increment count( x given y )
+        self.e_data_counter[x_y] += 1
+
+        # to increment count( y(i) given y(i-1) )
+        self.q_data_counter[y_yp] += 1
+
+        # to increment count( y )
         self.tag_counter[curr_tag] += 1
 
 
@@ -82,12 +88,24 @@ class TweetPOSParser:
         if output_filename == None:
             output_filename = self.output_filename
 
-        output_file = open(output_filename, 'w')
+        with open(output_filename, 'wb') as csvfile:
+            data_writer = csv.writer(csvfile)
+            self.__write_csv_batch(self.e_data_counter, 'e', data_writer)
+            self.__write_csv_batch(self.q_data_counter, 'q', data_writer)
+            self.__write_csv_batch(self.tag_counter, '', data_writer)
 
 
+    def __write_csv_batch(self, counter, t_type, csv_writer):
+        for elem in counter:
+            if t_type != '':        # elem/data is either count( x given y ) or count ( y(i) given y(i-1) )
+                first_t = elem[0]
+                second_t = elem[1]
+            else:                   # elem/data is count( y )
+                first_t = elem
+                second_t = ''
+            count = counter[elem]
 
-        output_file.close()
-
+            csv_writer.writerow([t_type, first_t, second_t, count])
 
 def print_counter_data(counter, counter_name):
     assert isinstance(counter, Counter)
@@ -115,5 +133,6 @@ if __name__ == "__main__":
 
     tweet_parser = TweetPOSParser(args.i, args.o)
     tweet_parser.load_data()
+    tweet_parser.save_data()
 
     sys.stdout.write("\n\n----- Completed Parse -----\n\n")
