@@ -14,8 +14,5 @@ The training data will also be evaluated, and stored in eval_trgdata.csv in the 
 first_term | second_term | value
 ---------- | ----------- | -----
 x          | y           | count( y -> x )
-y(i)       | y(i-1)      | count( y(i-1) -> y(i)
-
-
-
+y(i)       | y(i-1)      | count( y(i-1) -> y(i) )
 
