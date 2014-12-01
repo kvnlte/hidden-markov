@@ -6,4 +6,4 @@
 # The parent directory should contain the files 'parser.py' and 'train'
 # Output from parser.py will be stored in the file 'eval_trgdata.csv' in the parent directory
 
-python -i parser.py -i train -o eval_trgdata.csv
+python -i raw_parser.py -i train -o eval_trgdata.csv -p model_params.csv
