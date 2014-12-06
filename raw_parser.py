@@ -12,28 +12,14 @@ class TrgDataParser:
         self.e_data_counter = Counter()     # keys will be tuples of the form (word, tag)
         self.q_data_counter = Counter()     # keys will by tuples of the form (tag_n, tag_n_minus_1)
         self.tag_counter = Counter()
+        self.word_counter = Counter()
 
         self.e_params = {}
         self.q_params = {}
 
         self.__data_loaded = False          # tracks if read_raw_data() has been called
         self.__params_generated = False     # tracks if generate_model_params() has been called
-        
-    def get_e_params(self):
-        return self.e_params
-        
-    def get_q_params(self):
-        return self.q_params
-        
-    def get_e_data_counter(self):
-        return self.e_data_counter
-    
-    def get_q_data_counter(self):
-        return self.q_data_counter
 
-    def get_tag_counter(self):
-        return self.tag_counter
-        
     def read_raw_data(self):
         """
         Processes the raw data file into count data,
@@ -84,7 +70,8 @@ class TrgDataParser:
 
         # print_counter_data(self.e_data_counter, "e_data_counter")
         # print_counter_data(self.q_data_counter, "q_data_counter")
-        print_counter_data(self.tag_counter, "tag_counter")
+        # print_counter_data(self.tag_counter, "tag_counter")
+        # print_counter_data(self.word_counter, "tag_counter")
 
         self.__data_loaded = True
         input_file.close()
@@ -102,6 +89,9 @@ class TrgDataParser:
 
         # to increment count( y )
         self.tag_counter[curr_tag] += 1
+
+        # to increment and keep track of words that appear
+        self.word_counter[curr_word] += 1
 
 
     def save_count_data(self, output_filename):

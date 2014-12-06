@@ -44,18 +44,18 @@ def count_tag_matches(test_sentence, ref_sentence):
 if __name__ == "__main__":
   parser = argparse.ArgumentParser()
 
-  parser.add_argument("-a", dest="filename_a", type=str, help="Filename A")
-  parser.add_argument("-b", dest="filename_b", type=str, help="Filename B")
+  parser.add_argument("-i", dest="input_filename", type=str, help="Input Filename")
+  parser.add_argument("-r", dest="reference_filename", type=str, help="Reference Filename")
 
   args = parser.parse_args()
 
-  file_a = TweetTokenizer(args.filename_a)
-  file_b = TweetTokenizer(args.filename_b)
+  input_file = TweetTokenizer(args.input_filename)
+  ref_file = TweetTokenizer(args.reference_filename)
 
-  file_a.tokenize()
-  file_b.tokenize()
+  input_file.tokenize()
+  ref_file.tokenize()
 
-  score, total = compare_tokenized(file_a, file_b)
+  score, total = compare_tokenized(input_file, ref_file)
 
   print
   print "Found %d matches out of %d words" % (score, total)
