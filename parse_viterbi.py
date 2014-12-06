@@ -18,22 +18,7 @@ class TrgDataParser:
 
         self.__data_loaded = False          # tracks if read_raw_data() has been called
         self.__params_generated = False     # tracks if generate_model_params() has been called
-        
-    def get_e_params(self):
-        return self.e_params
-        
-    def get_q_params(self):
-        return self.q_params
-        
-    def get_e_data_counter(self):
-        return self.e_data_counter
-    
-    def get_q_data_counter(self):
-        return self.q_data_counter
 
-    def get_tag_counter(self):
-        return self.tag_counter
-        
     def read_raw_data(self):
         """
         Processes the raw data file into count data,
@@ -164,6 +149,9 @@ class TrgDataParser:
 
                 params_writer.writerow(['q', tag, prev_tag, q_value])
 
+
+    def viterbi(self):
+        
 
     @staticmethod
     def __write_count_batch(counter, t_type, csv_writer):
