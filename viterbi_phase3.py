@@ -5,7 +5,7 @@ import csv
 
 from raw_parser import TrgDataParser
 from simple_pos_tagger import SimpleTagger
-from viterbi_optimizer import ViterbiOptimizer
+from viterbi_optimizer_phase3 import ViterbiOptimizerP3
 
 
 
@@ -103,7 +103,7 @@ if __name__ == "__main__":
     
     
     file_out_p2=args.file_out_p2
-    final_viterbi=ViterbiOptimizer(train_q_params,train_e_params,file_in,file_out_p2,file_gold,y_list)
+    final_viterbi=ViterbiOptimizerP3(train_q_params,train_e_params,file_in,file_out_p2,file_gold,y_list)
     final_viterbi.tokenize_input()
     final_viterbi.tokenize_gold()
     final_viterbi.run()
