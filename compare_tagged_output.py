@@ -2,6 +2,14 @@ import argparse
 from tokenizer import TweetTokenizer
 
 
+
+#### This script compares two Tweet data files in the given project format and
+#### prints the number of tags that match between both files.
+
+#### Note: tokenizer.py is a dependency, and must be in the same directory
+
+
+
 def compare_tokenized(test_file, ref_file):
   total_sentences = test_file.total_sentences()
 

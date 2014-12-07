@@ -3,6 +3,11 @@ import argparse
 from collections import Counter
 
 
+#### This file defines the TweetTokenizer class, which is intended to parse
+#### POS Tweet files into sentence/tweet tokens, containing word-tag tokens.
+
+
+
 class TweetTokenizer:
 
   def __init__(self, filename):
