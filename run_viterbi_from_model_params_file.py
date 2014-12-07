@@ -5,7 +5,7 @@ from viterbi_algo import ViterbiAlgorithm
 parser = argparse.ArgumentParser()
 
 parser.add_argument("-m", dest="model_params_filename", help="File to load Model Params from")
-parser.add_argument("-sp", dest="use_simplePOS", action="store", help="Flag to indicate whether to use simplePOS emission params")
+parser.add_argument("-sp", dest="use_simplePOS", action="store_true", help="Flag to indicate whether to use simplePOS emission params")
 parser.add_argument("-d", dest="testdata_filename", help="File to load untagged test data from")
 parser.add_argument("-o", dest="output_filename", help="File to write output to")
 
