@@ -6,7 +6,7 @@ from simple_pos_tagger import SimpleTagger
 
 class ModelCalculator:
 
-    def __init__(self, trgdata_filename, skip_parse=False):
+    def __init__(self, trgdata_filename, skip_parse = False):
         if not skip_parse:
             self.parser = TrgDataParser(trgdata_filename)
             self.parser.read_raw_data()
@@ -24,11 +24,10 @@ class ModelCalculator:
         self.e_params = None
         self.q_params = None
 
-    @staticmethod
-    def init_from_params_file(params_filename):
-        model = ModelCalculator('', True)
-        model.e_params = {}
-        model.q_params = {}
+    def init_model_params_from_file(self, params_filename):
+        print "\n---- initializing Model Params from %s ----\n" % params_filename
+        self.e_params = {}
+        self.q_params = {}
 
         with open(params_filename, 'r') as csvfile:
             data_reader = csv.reader(csvfile)
@@ -36,22 +35,18 @@ class ModelCalculator:
             for row in data_reader:
                 param_key = (row[1], row[2])
                 if row[0] == 'e':   # e_param
-                    model.e_params[param_key] = float(row[3])
+                    self.e_params[param_key] = float(row[3])
                 else:               # q_param
-                    model.q_params[param_key] = float(row[3])
+                    self.q_params[param_key] = float(row[3])
 
         # count tags seen
 
-        model.tag_counter = Counter()
-        for word, tag in model.e_params:
-            model.tag_counter[tag] += 1
-        model.tags_seen = model.tag_counter.keys()
-        model.tags_seen.remove('STOP')
-
+        tag_counter = Counter()
+        for word, tag in self.e_params:
+            tag_counter[tag] += 1
+        self.tags_seen = tag_counter.keys()
+        self.tags_seen.remove('STOP')
         
-        model.test_data = None
-
-        return model
 
     def update_emissions_with_SimpleTagger_method(self, test_filename):
         simple_tagger = SimpleTagger(self.e_params, None, self.tag_counter, test_filename, None, None)

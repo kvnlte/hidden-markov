@@ -24,6 +24,8 @@ class ViterbiAlgorithm:
 
 
     def tag_all_tests(self):
+        print "\n ---- Running Viterbi Algorithm ----\n"
+
         self.tagged_test_sentences = []
         for sentence in self.test_sentences:
             tagged_sentence = self.tag_sentence(sentence)
@@ -39,6 +41,7 @@ class ViterbiAlgorithm:
             output_file.write('\n')
 
         output_file.close()
+        print "Saved tagged output file to: %s" % output_filename
 
     def tag_sentence(self, sentence):
         tag_sequence = self.generate_tag_sequence(sentence)
@@ -192,10 +195,8 @@ if __name__ == "__main__":
 
     viterbi = ViterbiAlgorithm(model)
 
-    print "\n ---- Running Viterbi Algorithm ----\n"
 
     viterbi.tag_all_tests()
 
-    print "Saved tagged output file to: %s" % args.output_filename
     viterbi.save_tagged_tests(args.output_filename)
 

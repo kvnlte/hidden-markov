@@ -10,7 +10,16 @@ from tokenizer import TweetTokenizer
 
 
 
-def compare_tokenized(test_file, ref_file):
+def compare_tweet_files(test_filename, ref_filename):
+
+  print 
+  print "Comparing %s to %s..." % (test_filename, ref_filename)
+  test_file = TweetTokenizer(test_filename)
+  ref_file = TweetTokenizer(ref_filename)
+
+  test_file.tokenize()
+  ref_file.tokenize()
+
   total_sentences = test_file.total_sentences()
 
   if total_sentences != ref_file.total_sentences():
@@ -23,6 +32,11 @@ def compare_tokenized(test_file, ref_file):
     test_sentence = test_file.sentence_list[i]
     ref_sentence = ref_file.sentence_list[i]
     total_matches += count_tag_matches(test_sentence, ref_sentence)
+  
+  print
+  print "\tFound %d matches out of %d words" % (total_matches, total_words)
+  print "\tMatch Percentage: %f %%" % ( (100*float(total_matches)) / total_words )
+  print
 
   return total_matches, total_words
 
@@ -57,16 +71,6 @@ if __name__ == "__main__":
 
   args = parser.parse_args()
 
-  input_file = TweetTokenizer(args.input_filename)
-  ref_file = TweetTokenizer(args.reference_filename)
+  score, total = compare_tweet_files(args.input_filename, args.reference_filename)
 
-  input_file.tokenize()
-  ref_file.tokenize()
-
-  score, total = compare_tokenized(input_file, ref_file)
-
-  print
-  print "Found %d matches out of %d words" % (score, total)
-  print "Match Percentage: %f %%" % ( (100*float(score)) / total )
-  print
-
+  
