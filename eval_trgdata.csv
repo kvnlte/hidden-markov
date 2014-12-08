@@ -75,7 +75,7 @@ e,Bacon,N,1
 e,@USER_18e4d957,@,1
 e,#win,V,2
 e,sucks,V,3
-e,Lmbo,!,1
+e,@USER_340a0ffa,@,1
 e,Fable,^,1
 e,@USER_485b77dc,@,1
 e,We'll,L,2
@@ -122,7 +122,7 @@ e,socks,N,1
 e,london,^,1
 e,verge,N,1
 e,resist,V,1
-e,sarcastic,A,1
+e,me6,O,1
 e,absorbs,V,1
 e,#MNpolitics,#,1
 e,allowed,V,2
@@ -289,9 +289,9 @@ e,spaces,N,1
 e,Love,V,2
 e,:P,E,2
 e,bastard,N,1
-e,ay,!,1
+e,#TDFAMILY,#,1
 e,jpmorgan,^,1
-e,photo,N,2
+e,PAPERCRAFTING,N,1
 e,xD,E,1
 e,stays,V,1
 e,dance,N,1
@@ -454,6 +454,7 @@ e,@USER_aa5d7fe6,@,1
 e,it'll,L,2
 e,Gift,N,2
 e,@USER_5e9b02c2,@,1
+e,#uzeeeit,#,1
 e,@USER_5d909206,@,1
 e,Says,V,1
 e,humidity,N,1
@@ -481,7 +482,7 @@ e,500,$,1
 e,http://bit.ly/9ThfCn,U,1
 e,HURTS,V,1
 e,Doubt,N,1
-e,@USER_340a0ffa,@,1
+e,Lmbo,!,1
 e,James,^,3
 e,going,V,17
 e,feeling,V,1
@@ -500,7 +501,7 @@ e,Cirus,^,1
 e,App,N,1
 e,gunk,N,1
 e,..,",",46
-e,@USER_dfe42e91,@,1
+e,pros,N,2
 e,theft,N,1
 e,@USER_fa655853,@,1
 e,TAKEOVER,N,1
@@ -588,7 +589,7 @@ e,@USER_e51d10f2,@,1
 e,KoryBaker262626…,^,1
 e,=),E,4
 e,bunch,N,1
-e,ICE,A,1
+e,routine,N,1
 e,perspective,N,1
 e,://,U,1
 e,steak,N,1
@@ -610,7 +611,6 @@ e,Express/iSqFt,^,1
 e,link,N,4
 e,Old,A,1
 e,dashboard,N,1
-e,Lovell,^,1
 e,@USER_0b5e0aa7,@,1
 e,Stupid,A,1
 e,Lamar,^,3
@@ -688,7 +688,7 @@ e,@USER_625568bf,@,1
 e,strategies,N,1
 e,@USER_d388ca71,@,1
 e,suffers,V,1
-e,AM,^,1
+e,@USER_37d12e29,@,1
 e,rather,R,2
 e,Is,V,5
 e,@USER_b3ad76c9,@,1
@@ -713,7 +713,7 @@ e,SECRET,A,1
 e,moving,V,1
 e,Show/Podcast,N,1
 e,"??""",",",1
-e,#uzeeeit,#,1
+e,@USER_dd281c50,@,1
 e,product,N,1
 e,Saks,^,1
 e,dru,N,1
@@ -739,6 +739,7 @@ e,nursing,N,1
 e,@USER_d00162e2,@,1
 e,him,O,9
 e,www.clientsfromhell.net,U,1
+e,sarcastic,A,1
 e,intense,A,1
 e,Dodson,^,1
 e,mental,N,1
@@ -794,7 +795,7 @@ e,(@,P,4
 e,wat,O,3
 e,ROTFLMAO,!,1
 e,their,D,5
-e,wife,N,2
+e,#prayforindonesia,#,4
 e,calm,A,1
 e,thats,L,3
 e,haha,!,10
@@ -910,7 +911,7 @@ e,spirit,N,1
 e,@USER_2131bb3f,@,1
 e,varsity,N,1
 e,squad,N,1
-e,#TDFAMILY,#,1
+e,Back,R,1
 e,regularly,R,1
 e,ball,N,1
 e,@USER_1bf05d17,@,1
@@ -944,7 +945,7 @@ e,Retweet,N,1
 e,Certificate,N,1
 e,come,V,11
 e,tips,N,3
-e,@USER_53db13fb,@,2
+e,@USER_18d9b723,@,1
 e,favorite,A,3
 e,Bham,^,1
 e,tru,A,2
@@ -1229,7 +1230,6 @@ e,http://game2gamer.com/node/88,U,1
 e,ohhhh,!,1
 e,Germany,^,1
 e,Distortion,^,1
-e,Check,V,9
 e,indian,^,1
 e,breaking,V,1
 e,http://s1z.us/tp.htm,U,1
@@ -1258,7 +1258,7 @@ e,@USER_7cb22033,@,1
 e,chocolate,N,1
 e,food,N,4
 e,thangs,N,1
-e,@USER_d59ec526,@,1
+e,second,A,2
 e,**,N,1
 e,opinion,N,1
 e,Actually,R,2
@@ -1536,7 +1536,7 @@ e,tho,R,4
 e,xDD,E,1
 e,@USER_709c203c,@,1
 e,@USER_2e451fde,@,1
-e,second,A,2
+e,@USER_d59ec526,@,1
 e,befriend,V,1
 e,2.3,$,1
 e,Win,V,1
@@ -1675,7 +1675,7 @@ e,understand,V,4
 e,Because,P,3
 e,crying,V,2
 e,Clarice,^,1
-e,PAPERCRAFTING,N,1
+e,photo,N,2
 e,Caitlin,^,1
 e,@USER_30cea1d3,@,1
 e,Mr.,^,1
@@ -1725,7 +1725,7 @@ e,twitter,^,5
 e,noticed,V,1
 e,hurts,V,2
 e,God,^,6
-e,Grand,^,1
+e,wife,N,2
 e,@USER_af6f5f48,@,1
 e,song,N,5
 e,Hello,!,1
@@ -1875,6 +1875,7 @@ e,stop,V,3
 e,coz,P,1
 e,6:30,$,1
 e,Marketing,N,1
+e,AM,^,1
 e,Dig,V,1
 e,cares,V,1
 e,big,A,4
@@ -2059,7 +2060,7 @@ e,billions,N,1
 e,approaches,V,1
 e,Rwanda,^,1
 e,happiness,N,1
-e,experience,V,1
+e,#eBay,#,1
 e,drones,V,1
 e,Chronicle/Jeffrey,G,1
 e,ties,N,1
@@ -2260,7 +2261,7 @@ e,#backchannel,#,1
 e,Center,^,1
 e,ดู,G,1
 e,Kylie,^,1
-e,!:,",",2
+e,Cheese,N,3
 e,sing,V,2
 e,inking,V,1
 e,IRS,^,1
@@ -2390,7 +2391,7 @@ e,pahaha,!,1
 e,quality,N,2
 e,single,A,1
 e,^DJ,G,1
-e,#eBay,#,1
+e,experience,V,1
 e,stress,V,1
 e,let,V,3
 e,$,G,2
@@ -2613,6 +2614,7 @@ e,http://youtu.be/TVknK9nLRks?a,U,1
 e,that,D,48
 e,brown,^,1
 e,28,$,1
+e,Serbian,^,1
 e,http://youtu.be/p4gRKvtYu48?a,U,1
 e,Tracy's,Z,1
 e,#thatshowitis,#,1
@@ -2770,6 +2772,7 @@ e,motivational,A,1
 e,misery,N,1
 e,sho,A,1
 e,pulls,V,1
+e,Grand,^,1
 e,-->,G,3
 e,http://tl.gd/6m8p7g,U,1
 e,Bad,A,2
@@ -2793,7 +2796,7 @@ e,That,P,1
 e,Man,^,1
 e,uploaded,V,2
 e,@USER_5dfc161c,@,1
-e,http://tumblr.com/xlnngu9sg,U,1
+e,Lovell,^,1
 e,#listen,#,1
 e,accurate,A,1
 e,lead,N,1
@@ -2943,7 +2946,7 @@ e,@USER_21b3b0f9,@,1
 e,http://on.fb.me/boUPsZ,U,1
 e,championship,N,2
 e,good,A,29
-e,pros,N,2
+e,@USER_dfe42e91,@,1
 e,@USER_66d8d837,@,1
 e,expected,V,1
 e,Mention,V,1
@@ -3317,7 +3320,7 @@ e,arm,N,2
 e,MI,^,1
 e,nap,N,2
 e,am,V,12
-e,LA,^,1
+e,"?""",",",2
 e,believe,V,3
 e,p,G,1
 e,unaware,A,1
@@ -3487,7 +3490,7 @@ e,--,~,2
 e,Comcast,^,1
 e,Rihanna's,Z,1
 e,@USER_ab0f8e58,@,1
-e,routine,N,1
+e,ICE,A,1
 e,@USER_7bb2f847,@,1
 e,heel,N,1
 e,seeing,V,4
@@ -3560,7 +3563,7 @@ e,load,N,1
 e,traditional,A,1
 e,#directbuy,^,1
 e,Clowns,N,1
-e,@USER_e0b26e5f,@,1
+e,JUICE,N,1
 e,Happiness,N,1
 e,#TeamNoTeams,#,1
 e,@USER_183d3c8c,@,1
@@ -4043,7 +4046,7 @@ e,holidays,N,1
 e,Let,V,3
 e,Southwest,N,1
 e,Headed,V,1
-e,BIANCA,^,1
+e,Album,N,1
 e,together,R,2
 e,Shard,N,1
 e,saving,V,1
@@ -4117,7 +4120,7 @@ e,ATL,^,1
 e,broke,V,1
 e,allows,V,1
 e,fame,N,1
-e,Serbian,^,1
+e,Monaco,^,1
 e,Toronto),^,1
 e,spirits,N,1
 e,war,N,1
@@ -4140,7 +4143,6 @@ e,I,$,1
 e,DB5,^,1
 e,Clay,^,1
 e,KNOW,V,2
-e,@USER_37d12e29,@,1
 e,http://4sq.com/b3s9KJ,U,1
 e,work,N,7
 e,17:27,$,1
@@ -4292,7 +4294,7 @@ e,perfect,A,2
 e,Bosh,^,1
 e,pumpkin,N,1
 e,classes,N,1
-e,@USER_dd281c50,@,1
+e,Check,V,9
 e,GO,V,1
 e,Going,V,3
 e,gusting,V,1
@@ -4413,7 +4415,7 @@ e,@USER_5037b0e8,@,1
 e,GLC,^,1
 e,excited,V,1
 e,texas,^,2
-e,runnin,V,1
+e,ever,R,9
 e,charms,Z,1
 e,@USER_49873b34,@,1
 e,@USER_4db51cab,@,1
@@ -4477,7 +4479,7 @@ e,fri,^,1
 e,issues,N,1
 e,feeding,V,1
 e,@USER_a269b376,@,1
-e,Cheese,N,3
+e,!:,",",2
 e,at,O,1
 e,Austin,^,1
 e,Can,V,5
@@ -4799,7 +4801,7 @@ e,@USER_a4ea1d58,@,1
 e,Party,V,1
 e,#TAG,#,1
 e,hot,A,2
-e,Album,N,1
+e,BIANCA,^,1
 e,Oct,^,2
 e,cards,N,1
 e,@USER_899c3803,@,1
@@ -4817,7 +4819,6 @@ e,Air,N,1
 e,fml,!,1
 e,fuckers,N,1
 e,@USER_2e7a6344,@,1
-e,#prayforindonesia,#,4
 e,paper,N,1
 e,Burdick,^,1
 e,@USER_bee12c88,@,1
@@ -5603,12 +5604,12 @@ e,Chicago's,Z,1
 e,OBTS,^,2
 e,http://t.co/SQ7yPez,U,1
 e,http://www.laughstub.com/buyTicket.cfm?showTimingID=41616,U,1
+e,ay,!,1
 e,teen,N,1
 e,tune,V,1
 e,oddly,R,1
 e,http://tl.gd/6mdj5q,U,1
 e,Thinking,V,1
-e,Back,R,1
 e,Try,V,3
 e,pineapple,N,1
 e,We're,L,1
@@ -5671,7 +5672,7 @@ e,ignorant,A,2
 e,bad,N,1
 e,mountainridge,N,1
 e,hurt,A,1
-e,"?""",",",2
+e,LA,^,1
 e,mii,D,1
 e,MY,D,2
 e,Hear,V,1
@@ -5703,7 +5704,7 @@ e,http://bit.ly/bkDYWQ,U,1
 e,production,N,1
 e,inks,N,1
 e,covered,V,1
-e,JUICE,N,1
+e,@USER_e0b26e5f,@,1
 e,HTB,^,1
 e,3:00,$,1
 e,office,^,1
@@ -5761,7 +5762,7 @@ e,XD,E,2
 e,dull,A,1
 e,http://tumblr.com/xginge597,U,1
 e,magnum,N,1
-e,@USER_18d9b723,@,1
+e,@USER_53db13fb,@,2
 e,trip,N,1
 e,“Success,N,1
 e,harry,^,1
@@ -5799,7 +5800,7 @@ e,office,N,1
 e,LOLOL,!,1
 e,]:,",",2
 e,FACT,N,1
-e,Monaco,^,1
+e,http://tumblr.com/xlnngu9sg,U,1
 e,micros,N,1
 e,#jammy,#,1
 e,wit,P,6
@@ -5846,7 +5847,7 @@ e,tweet,N,1
 e,sneezing,V,1
 e,@USER_76c20a6b,@,1
 e,mo-tivation,N,2
-e,ever,R,9
+e,runnin,V,1
 e,Lovato,^,1
 e,Isn't,V,1
 e,lookin,V,1
@@ -6051,7 +6052,6 @@ e,boyfriend&,N,1
 e,Startups,N,1
 e,@USER_bf6109df,@,1
 e,welcome,A,1
-e,me6,O,1
 e,Kid,^,1
 e,wool,N,1
 e,-----,~,1
@@ -6373,7 +6373,7 @@ q,#,E,2
 q,L,@,24
 q,$,^,26
 q,X,~,3
-q,G,!,3
+q,N,~,13
 q,P,",",57
 q,R,@,31
 q,V,E,5
@@ -6406,7 +6406,7 @@ q,@,T,1
 q,^,R,10
 q,L,E,3
 q,R,E,3
-q,N,~,13
+q,G,!,3
 q,^,L,2
 q,!,E,8
 q,S,@,1

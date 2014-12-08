@@ -52,7 +52,6 @@ def count_tag_matches(test_sentence, ref_sentence):
   for i in xrange(sentence_length):
     test_word, test_tag = test_sentence[i]
     ref_word, ref_tag = ref_sentence[i]
-
     if test_word != ref_word:
       raise RuntimeError("Mismatched Sentences")
     if test_tag == ref_tag:

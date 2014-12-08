@@ -8,7 +8,7 @@ from bin.raw_parser import TrgDataParser
 from bin.simple_pos_tagger import SimpleTagger
 from bin.viterbi_optimizer import ViterbiOptimizer
 from bin.compare_tagged_output import compare_tweet_files
-
+from bin.model_calc import ModelCalculator
 
 sys.stdout.write("\n\n----- Beginning Parse -----\n\n")
 
@@ -28,7 +28,7 @@ args = parser.parse_args()
 if args.trg_set_filename is not None:
   trg_set_filename = args.trg_set_filename
 else:
-  trg_set_filename = os.path.join('data', 'train')
+  trg_set_filename = os.path.join('data', 'pptrain')
 
 
 if args.count_data_filename is not None:
@@ -46,7 +46,7 @@ else:
 if args.file_in is not None:
   file_in = args.file_in
 else:
-  file_in = os.path.join('data', 'dev.in')
+  file_in = os.path.join('data', 'ppdev.in')
 
 
 if args.file_out_p1 is not None:
@@ -64,7 +64,7 @@ else:
 if args.file_gold is not None:
   file_gold = args.file_gold
 else:
-  file_gold = os.path.join('data', 'dev.out')
+  file_gold = os.path.join('data', 'ppdev.out')
 
 
 
@@ -78,34 +78,49 @@ sys.stdout.write("Specified Traing Data File: %s\n" % raw_data_filename)
 sys.stdout.write("Specified Count Data File: %s\n" % count_data_filename)
 sys.stdout.write("Specified Model Params File: %s\n" % model_params_filename)
 
-training_parser = TrgDataParser(raw_data_filename)
-training_parser.read_raw_data()
-training_parser.save_count_data(count_data_filename)
-training_parser.generate_model_params()
-training_parser.save_model_params(model_params_filename)
+#training_parser = TrgDataParser(raw_data_filename)
+#training_parser.read_raw_data()
+#training_parser.save_count_data(count_data_filename)
+#training_parser.generate_model_params()
+#training_parser.save_model_params(model_params_filename)
+#
+#
+#train_e_params=training_parser.e_params
+#train_q_params=training_parser.q_params
+#train_e_counts=training_parser.e_data_counter
+#train_q_counts=training_parser.q_data_counter
+#train_tag_counts=training_parser.tag_counter
+#y_list=[]
+#for i in train_tag_counts:
+#    y_list.append(i)
+#
+#file_in=file_in
+#file_out_p1=file_out_p1
+#file_gold=file_gold
+#validate_tagger=SimpleTagger(train_e_params, train_e_counts, train_tag_counts,file_in,file_out_p1,file_gold)
+#validate_tagger.update_emission_parameters()
+#validate_tagger.run_simple_tagger()
+#validate_tagger.check_accuracy()
+#train_e_params=validate_tagger.emission_params
 
 
-train_e_params=training_parser.e_params
-train_q_params=training_parser.q_params
-train_e_counts=training_parser.e_data_counter
-train_q_counts=training_parser.q_data_counter
-train_tag_counts=training_parser.tag_counter
-y_list=[]
-for i in train_tag_counts:
-    y_list.append(i)
 
-file_in=file_in
-file_out_p1=file_out_p1
-file_gold=file_gold
-validate_tagger=SimpleTagger(train_e_params, train_e_counts, train_tag_counts,file_in,file_out_p1,file_gold)
-validate_tagger.update_emission_parameters()
-validate_tagger.run_simple_tagger()
-validate_tagger.check_accuracy()
-train_e_params=validate_tagger.emission_params
 
+
+model = ModelCalculator(raw_data_filename)
+model.load_test_file(file_in)
+model.init_model_params()
+
+
+train_q_params = model.q_params
+train_e_params = model.e_params
+#file_in = testdata_filename
+#file_out = output_filename
+#file_gold = os.path.join('data', 'dev.out')
+states = model.tags_seen + ['*', 'STOP']
 
 file_out_p2=file_out_p2
-final_viterbi=ViterbiOptimizer(train_q_params,train_e_params,file_in,file_out_p2,file_gold,y_list)
+final_viterbi=ViterbiOptimizer(train_q_params,train_e_params,file_in,file_out_p2,file_gold,states)
 final_viterbi.tokenize_input()
 final_viterbi.tokenize_gold()
 final_viterbi.run()

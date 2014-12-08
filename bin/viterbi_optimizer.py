@@ -9,12 +9,13 @@ class ViterbiOptimizer:
         self.file_out=file_out
         self.file_gold=file_gold
         self.states=states
-        self.states.remove('*')
-        self.states.remove('STOP')
         for i in self.states:
             for j in self.states:
                 if (i,j) not in self.q_params:
                     self.q_params[(i,j)]=0
+        self.states.remove('*')
+        self.states.remove('STOP')
+
         
     def tokenize_input(self):
         input_tokenizer=TweetTokenizer(self.file_in)
@@ -61,11 +62,27 @@ class ViterbiOptimizer:
                     V[t][y]=prob
                     newpath[y]=path[state]+[y]
                 path = newpath
+                
+            #V.append({})
+            #newpath={}
+            #if len(sentence)!=1:
+            #    print t
+            #    print len(V)
+            #    (prob, state) = max((V[t][y]*self.q_params[('STOP',y)],y) for y in self.states)
+            #else:
+            #    print t
+            #    t=0
+            #    print t + 'corrected'
+            #    (prob, state) = max((V[t][y]*self.q_params[('STOP',y)],y) for y in self.states)
+            #V[t+1][y]=prob
+            #newpath[y]=path[state]+[y]
+            #path = newpath
+            #
             n=0
             if len(sentence)!=1:
                 n=t
             #print_dptable(V)
-            (prob,state) = max((V[n][y], y) for y in self.states)
+            (prob,state) = max((V[n][y]*self.q_params[('STOP',y)], y) for y in self.states)
             newsentence=[(sentence[i][0],path[state][i]) for i in range(len(path[state]))]
             self.output_tokens.append(newsentence)
 
