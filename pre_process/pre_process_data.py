@@ -17,6 +17,12 @@ def pre_process_data():
 			elif contains_haha(line):
 				replace_haha(line)
 
+			elif contains_num(line):
+				replace_num(line)
+
+			elif contains_hashtag(line):
+				replace_hashtag(line)
+
 			else:
 				write(line)
 	
@@ -89,6 +95,51 @@ def contains_haha(line):
 
 def replace_haha(line):
 	replacement = "haha"
+	if args.type == "train":
+		tag = line.split()[1]
+		edited_line = replacement + '\t' + tag + '\n'
+		output.append(edited_line)
+	else:
+		output.append(replacement + '\n')
+
+
+##############################
+## find and replace numbers ##
+##############################
+
+num = "[0-9]+"
+num_pattern = re.compile(num)
+
+def contains_num(line):
+	if num_pattern.match(line):
+		return True
+	else:
+		return False
+
+def replace_num(line):
+	replacement = "1000"
+	if args.type == "train":
+		tag = line.split()[1]
+		edited_line = replacement + '\t' + tag + '\n'
+		output.append(edited_line)
+	else:
+		output.append(replacement + '\n')
+
+
+###############################
+## find and replace hashtags ##
+###############################
+
+hashtag_pattern = re.compile("#")
+
+def contains_hashtag(line):
+	if hashtag_pattern.match(line):
+		return True
+	else:
+		return False
+
+def replace_hashtag(line):
+	replacement = "#hashtag"
 	if args.type == "train":
 		tag = line.split()[1]
 		edited_line = replacement + '\t' + tag + '\n'

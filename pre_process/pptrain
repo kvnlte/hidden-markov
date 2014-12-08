@@ -6,7 +6,7 @@ see	V
 u	O
 Bron	^
 ...	,
-31	$
+1000	$
 right	R
 quick	A
 
@@ -57,18 +57,18 @@ today	N
 They	O
 was	V
 sposed	A
-2	P
+1000	P
 be	V
 here	R
 at	P
-7:30	$
+1000	$
 am	N
 ,	,
 but	&
 got	V
 here	R
 at	P
-8:30	$
+1000	$
 !	,
 Where	R
 they	O
@@ -85,7 +85,7 @@ Connor	^
 Alberhasky	^
 for	P
 a	D
-29	$
+1000	$
 yard	N
 gain	N
 .	,
@@ -93,13 +93,13 @@ City	^
 high	^
 on	P
 the	D
-29	$
+1000	$
 yard	N
 line	N
 
-#listen	#
-#canada	#
-#1	$
+#hashtag	#
+#hashtag	#
+#hashtag	$
 :	,
 Speak	V
 Now	R
@@ -126,7 +126,7 @@ Audio	N
 http	U
 
 its	L
-#humpdayyy	N
+#hashtag	N
 .	,
 
 Oh	!
@@ -197,7 +197,7 @@ TWEET	V
 ME	O
 ,	,
 WHAT'S	L
-#LAKERIN	V
+#hashtag	V
 
 @USER	@
 lol	!
@@ -213,7 +213,7 @@ RT	~
 RT	~
 @USER	@
 :	~
-#Rush	#
+#hashtag	#
 :	~
 There	X
 are	V
@@ -347,9 +347,9 @@ thrills	N
 than	P
 JAWS	^
 !	,
-57	$
+1000	$
 reviews	N
-4stars	N
+1000	N
 http	U
 ...	~
 
@@ -417,7 +417,7 @@ the	D
 mayor	N
 of	P
 Off	^
-5th	^
+1000	^
 Saks	^
 Fifth	^
 Avenue	^
@@ -450,7 +450,7 @@ Pub	N
 Quiz	N
 starts	V
 in	P
-20	$
+1000	$
 mins	N
 @USER	@
 on	P
@@ -460,7 +460,7 @@ We're	L
 there	R
 '	,
 til	P
-11	$
+1000	$
 so	P
 come	V
 on	T
@@ -561,18 +561,18 @@ to	P
 Help	V
 us	O
 reach	V
-500	$
+1000	$
 !	,
 RT	~
 "	,
-#GlareX2Mender	^
+#hashtag	^
 products	N
 !	,
 All	D
 this	D
 in	P
 one	$
-#contest	N
+#hashtag	N
 !	,
 Details	N
 here	R
@@ -641,7 +641,7 @@ and	&
 got	V
 :	,
 Part	N
-6	$
+1000	$
 !	,
 !	,
 Try	V
@@ -689,12 +689,12 @@ cant	V
 live	V
 without	P
 ?	,
-#tellme	#
+#hashtag	#
 
 RT	~
 @USER	@
 :	~
-6	$
+1000	$
 Productivity	N
 Principles	N
 to	P
@@ -724,7 +724,7 @@ Halloween	^
 ...	,
 I	O
 turn	V
-21	$
+1000	$
 and	&
 you're	L
 the	D
@@ -889,7 +889,7 @@ vote	V
 —	G
 nope	!
 .	,
-3	$
+1000	$
 more	A
 years	N
 .	,
@@ -949,7 +949,7 @@ to	P
 me	O
 is	V
 on	P
-10	$
+1000	$
 !!!!	,
 ---	~
 Its	L
@@ -1052,7 +1052,7 @@ alone	R
 &hearts	E
 ;	,
 
-10/30's	S
+1000	S
 killer	A
 line-up	N
 features	V
@@ -1064,7 +1064,7 @@ features	V
 @USER	@
 ...	,
 http	U
-3pm	$
+1000	$
 Ricochet's	M
 free	A
 ,	,
@@ -1131,7 +1131,7 @@ Haspel	^
 for	P
 being	V
 the	D
-1,000	$
+1000	$
 th	G
 person	N
 to	P
@@ -1152,19 +1152,19 @@ Pots	N
 Green	A
 )	,
 £	G
-13.94	$
+1000	$
 [	,
 SAVE	V
 £	G
-6.05	$
+1000	$
 ]	,
 >>	G
 http	U
-#bargains	#
-#deals	#
-10.27	$
+#hashtag	#
+#hashtag	#
+1000	$
 .	,
-10	$
+1000	$
 
 James	^
 Bond’s	Z
@@ -1201,7 +1201,7 @@ Embargo	N
 on	P
 Cuba	^
 for	P
-19th	A
+1000	A
 Year	N
 http	U
 
@@ -1209,7 +1209,7 @@ http	U
 I	O
 seriously	R
 need	V
-2	P
+1000	P
 read	V
 &	&
 listen	V
@@ -1227,7 +1227,7 @@ of	P
 encouragement	N
 &	&
 knowledge	N
-2	P
+1000	P
 which	D
 I	O
 have	V
@@ -1243,7 +1243,7 @@ BUNZ	N
 haha	!
 night	!
 me	O
-2	R
+1000	R
 
 i	O
 think	V
@@ -1277,7 +1277,7 @@ on	P
 @USER	@
 http	U
 
-#FOLLOW	V
+#hashtag	V
 ---->	G
 @USER	@
 @USER	@
@@ -1312,13 +1312,13 @@ is	V
 only	R
 down	R
 by	P
-6	$
+1000	$
 .	,
 Let's	L
 see	V
 how	R
 this	D
-4th	A
+1000	A
 quarter	N
 unfolds	V
 ...	,
@@ -1328,7 +1328,7 @@ unfolds	V
 @USER	@
 ,	,
 MORNING	!
-#ETP	N
+#hashtag	N
 FAM	N
 
 RT	~
@@ -1339,7 +1339,7 @@ love	V
 how	R
 people	N
 on	P
-#subeta	^
+#hashtag	^
 can	V
 admit	V
 to	P
@@ -1408,7 +1408,7 @@ this	D
 free	A
 auction	N
 :	,
-3-bikes	N
+1000	N
 an	&
 a	D
 caddy	N
@@ -1524,7 +1524,7 @@ paramount	A
 but	&
 associating	V
 w	P
-1	$
+1000	$
 personality	N
 has	V
 big	A
@@ -1539,7 +1539,7 @@ Tiger	^
 MJ	^
 ,	,
 ...	,
-#brandchat	#
+#hashtag	#
 
 RT	~
 @USER	@
@@ -1569,7 +1569,7 @@ http	U
 
 Since	P
 the	D
-#US	^
+#hashtag	^
 is	V
 going	V
 down	P
@@ -1590,10 +1590,10 @@ to	P
 live	V
 in	P
 ??	,
-#CAsen	#
-#CAgov	#
-#CAgov	#
-#Whitman	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
 /Brown	#
 
 lmao	!
@@ -1676,12 +1676,12 @@ cont	~
 http	U
 
 ran	V
-2.3	$
+1000	$
 mi	N
 on	P
-10/27/2010	$
+1000	$
 at	P
-6:40	$
+1000	$
 AM	N
 http	U
 
@@ -1693,7 +1693,7 @@ Lord	^
 RT	~
 @USER	@
 :	~
-#Sexstrology	#
+#hashtag	#
 Security	N
 and	&
 protection	N
@@ -1755,7 +1755,7 @@ slimey	A
 shit	N
 it	O
 was	V
-2	$
+1000	$
 of	P
 us	O
 against	P
@@ -1784,7 +1784,7 @@ twitter	^
 RT	~
 @USER	@
 :	~
-#trushit	#
+#hashtag	#
 -	,
 im	L
 tryna	V
@@ -1809,7 +1809,7 @@ is	V
 ....	,
 curiosity	N
 .	,
-#strengths	#
+#hashtag	#
 
 being	V
 sick	A
@@ -1885,7 +1885,7 @@ get	V
 you	O
 at	P
 like	A
-6:30	$
+1000	$
 .	,
 
 :(	E
@@ -1928,13 +1928,13 @@ to	P
 watch	V
 on	P
 the	D
-#iPad	^
+#hashtag	^
 !	,
 http	U
 @USER	@
-#utcd2	#
-#utpol	#
-#tcot	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
 
 @USER	@
 what's	L
@@ -2092,7 +2092,7 @@ I	O
 will	V
 pardon	V
 jan	^
-1	$
+1000	$
 
 @USER	@
 it	O
@@ -2144,7 +2144,7 @@ me	O
 for	P
 money	N
 @USER	@
-#niggaplz	#
+#hashtag	#
 
 YEEEEEEES	!
 LAKERS	^
@@ -2173,7 +2173,7 @@ of	P
 liking	V
 Art	^
 Reach	^
-#SanDiego	^
+#hashtag	^
 .	,
 http	U
 
@@ -2183,8 +2183,8 @@ RT	~
 RT	~
 @USER	@
 :	~
-#Shoutout	#
-#Follow	#
+#hashtag	#
+#hashtag	#
 >>>	G
 @USER	@
 @USER	@
@@ -2218,7 +2218,7 @@ On	P
 Check	N
 .	,
 I&	O
-#39	G
+#hashtag	G
 ;	G
 m	V
 Daddy	N
@@ -2279,7 +2279,7 @@ Still	R
 bumpin	V
 '	,
 @USER	@
-#SpeakNow	^
+#hashtag	^
 in	P
 my	D
 car	N
@@ -2378,7 +2378,7 @@ Minogue	^
 North	^
 American	^
 Tour	N
-2011	$
+1000	$
 http	U
 via	P
 @USER	@
@@ -2401,7 +2401,7 @@ wifi	N
 on	P
 my	D
 boyfriend&	N
-#8217	G
+#hashtag	G
 ;	G
 s	G
 macbook	^
@@ -2452,7 +2452,7 @@ view	N
 like	P
 that	D
 .	,
-#potsandpans	#
+#hashtag	#
 
 The	D
 u.s.	^
@@ -2514,8 +2514,8 @@ interview	N
 on	P
 @USER	@
 http	U
-#voteto	#
-#yyccc	#
+#hashtag	#
+#hashtag	#
 |	G
 Interesting	A
 juxtaposed	V
@@ -2569,10 +2569,10 @@ Deliver	V
 The	D
 BlackBerry®	^
 Bold™	^
-9780	$
+1000	$
 On	P
 November	^
-17th	$
+1000	$
 :	,
 T-Mobile	^
 has	V
@@ -2591,7 +2591,7 @@ it	O
 !	,
 
 Senate	^
-#ArtsGrades	N
+#hashtag	N
 are	V
 in	P
 !	,
@@ -2605,7 +2605,7 @@ the	D
 Dirty	^
 Dozen	^
 .	,
-#arts	#
+#hashtag	#
 http	U
 via	P
 @USER	@
@@ -2651,7 +2651,7 @@ with	P
 Slacker	^
 Radio	^
 part	N
-2	$
+1000	$
 :	,
 http	U
 
@@ -2664,14 +2664,14 @@ will	V
 be	V
 P̶o̶c̶a̶h̶o̶n̶t̶a̶s̶	^
 AVATAR	^
-2+3	$
+1000	$
 ,	,
 with	P
 release	N
 dates	N
 of	P
 December	^
-2014	$
+1000	$
 ...	~
 http	U
 
@@ -2711,7 +2711,7 @@ shut	V
 up	T
 !	,
 
-#np	#
+#hashtag	#
 Min	^
 Kyung	^
 Hoon	^
@@ -2746,13 +2746,13 @@ who	O
 came	V
 out	T
 to	P
-#dosomethingwildvote	G
+#hashtag	G
 
 RT	~
 @USER	@
 :	~
 If	P
-#JuanWilliams	^
+#hashtag	^
 had	V
 said	V
 that	P
@@ -2777,7 +2777,7 @@ Check	V
 out	T
 the	D
 @USER	@
-#PROGRESS	N
+#hashtag	N
 app	N
 :	,
 http	U
@@ -2831,7 +2831,7 @@ voice	N
 )	,
 for	P
 @USER	@
-#supportrealhiphop	#
+#hashtag	#
 !	,
 
 Awww	!
@@ -2896,23 +2896,23 @@ http	U
 HHHHHHHHHHHHHHHHHHHHHHi~☆	!
 
 Calgary	^
-1980	$
+1000	$
 PONTIAC	^
 TRANS	^
 AM	^
 T	^
 TOPS	^
 $	,
-4,900	$
+1000	$
 .	,
-00	$
+1000	$
 OVER	P
-175	$
+1000	$
 CARS	N
 TRUCKS	N
 AND	&
 SUV'S	N
-90	$
+1000	$
 DAY	N
 WARRENTY	N
 ...	~
@@ -2971,7 +2971,7 @@ eh	!
 
 ROCKY	^
 HORROR	^
-#GLEE	^
+#hashtag	^
 !!!	,
 
 @USER	@
@@ -3004,7 +3004,7 @@ Center	^
 Biocon	^
 to	P
 invest	V
-161	$
+1000	$
 million	$
 dollars	N
 in	P
@@ -3027,7 +3027,7 @@ http	U
 
 Vintage	A
 Venesha	^
-80%	$
+1000	$
 Angora	A
 Sweater	N
 ,	,
@@ -3093,7 +3093,7 @@ school	N
 tomorrow	N
 before	P
 the	D
-3-day	A
+1000	A
 weekenddd	N
 !	,
 
@@ -3182,15 +3182,15 @@ cHeErleAdiN	N
 pRactiCe	N
 ...	,
 yaY	!
-#cheer	#
+#hashtag	#
 
-4	$
+1000	$
 points	N
 ....	,
-17	$
+1000	$
 assists	N
 !!!!	,
-#Rondo	#
+#hashtag	#
 
 Sucks	V
 for	P
@@ -3229,8 +3229,8 @@ Consumption	N
 by	P
 @USER	@
 http	U
-#newspaper	#
-#media	#
+#hashtag	#
+#hashtag	#
 
 It	O
 needs	V
@@ -3276,7 +3276,7 @@ buy	V
 it	O
 .	,
 ;	E
-3	E
+1000	E
 
 RT	~
 @USER	@
@@ -3532,7 +3532,7 @@ u	O
 better	R
 watch	V
 team	N
-#boston	^
+#hashtag	^
 going	V
 HAMMM	A
 coz	P
@@ -3541,7 +3541,7 @@ coming	V
 back	R
 for	P
 them	D
-#lakers	^
+#hashtag	^
 
 @USER	@
 Aha	!
@@ -3561,7 +3561,7 @@ went	V
 HAM	A
 on	P
 First	A
-48	$
+1000	$
 !	,
 
 RT	~
@@ -3576,7 +3576,7 @@ Dad	N
 !	,
 Lol	!
 <==	~
-#FlagOnThePlay	#
+#hashtag	#
 
 We	O
 has	V
@@ -3587,7 +3587,7 @@ laaaaaaaaast	A
 !	,
 
 (	,
-1/2	$
+1000	$
 )	,
 '	,
 d	^
@@ -3629,7 +3629,7 @@ RT	~
 @USER	@
 :	~
 Shoutout	N
-2	P
+1000	P
 @USER	@
 @USER	@
 @USER	@
@@ -3691,7 +3691,7 @@ everything	N
 he/she	O
 said	V
 mufuggah	N
-#yeahumufuggah	#
+#hashtag	#
 
 she	O
 was	V
@@ -3718,7 +3718,7 @@ school	N
 track	N
 hoodie	N
 ...	,
-#memories	#
+#hashtag	#
 
 Surely	R
 our	D
@@ -3791,12 +3791,12 @@ this	D
 damn	A
 hw	N
 
-#shoutout	V
+#hashtag	V
 to	P
 @USER	@
 !!!	,
-#tfb	#
-#teamfollowback	#
+#hashtag	#
+#hashtag	#
 
 @USER	@
 most	R
@@ -3805,7 +3805,7 @@ song	N
 ever	R
 .	,
 
-#FridayNightLights	^
+#hashtag	^
 viewing	N
 party	N
 at	P
@@ -3833,7 +3833,7 @@ junior	N
 high	N
 students	N
 from	P
-1995	$
+1000	$
 -	,
 *	,
 sigh	V
@@ -3858,7 +3858,7 @@ tho	R
 The	D
 whold	A
 fucking	A
-300	$
+1000	$
 wing	N
 smells	V
 like	P
@@ -3877,7 +3877,7 @@ in	P
 the	D
 room	N
 before	P
-1	$
+1000	$
 yess	!
 !	,
 !	,
@@ -3977,7 +3977,7 @@ resume	N
 
 The	D
 Evaporator	^
-10	$
+1000	$
 LB	N
 .	,
 Desiccant	N
@@ -3993,7 +3993,7 @@ Use	V
 code	N
 T102610	$
 through	P
-11/01/10	$
+1000	$
 .	,
 www.ToolsUSA.com	U
 
@@ -4095,7 +4095,7 @@ and	&
 Domo	^
 killing	V
 room	N
-1	$
+1000	$
 
 @USER	@
 lmao	!
@@ -4145,7 +4145,7 @@ yesterday	N
 :/	E
 lol	!
 
-28	$
+1000	$
 Inspirational	A
 Examples	N
 of	P
@@ -4194,7 +4194,7 @@ and	&
 having	V
 sex	N
 .	,
-#FBLikes	#
+#hashtag	#
 
 RT	~
 @USER	@
@@ -4283,7 +4283,7 @@ Home	N
 http	U
 
 @USER	@
-#oneword	#
+#hashtag	#
 :	,
 LAZYASFUCK	A
 lol	!
@@ -4325,11 +4325,11 @@ Michael	^
 Ruhlman	^
 blogs	V
 about	P
-#celiac	N
+#hashtag	N
 disease	N
 !	,
 http	U
-#GF	#
+#hashtag	#
 
 @USER	@
 I	O
@@ -4371,7 +4371,7 @@ Toronto	^
 Head	N
 Office	N
 (	,
-1	$
+1000	$
 dundas	^
 street	^
 west	^
@@ -4422,14 +4422,14 @@ Wow	!
 .	,
 http	U
 
-#TeamGemini	#
-#TeamCallEmOut	#
-#TeamCheeky	#
-#TeamUnfollow	#
-#TeamIgnoreWhatsHisFace	#
-#TeamCrazyPrettyGirls	#
-#TeamNoShirt	#
-#TeamNoTeams	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
 
 RT	~
 @USER	@
@@ -4455,7 +4455,7 @@ is	V
 a	D
 Banger	N
 
-#moviesondemand	#
+#hashtag	#
 people	N
 are	V
 crazy	A
@@ -4467,7 +4467,7 @@ now	R
 !	,
 @USER	@
 
-#np	#
+#hashtag	#
 can't	V
 get	V
 enough	N
@@ -4567,8 +4567,8 @@ gonna	V
 in	P
 on	P
 that	D
-#TT	#
-#MyExGirlfriend	#
+#hashtag	#
+#hashtag	#
 .	,
 Lol	!
 I'm	L
@@ -4591,7 +4591,7 @@ cheating	V
 ...	,
 http	U
 
-#teamhorny	#
+#hashtag	#
 
 There	X
 are	V
@@ -4669,7 +4669,7 @@ dunk	N
 later	R
 in	P
 the	D
-4th	N
+1000	N
 .	,
 
 @USER	@
@@ -4816,7 +4816,7 @@ Geez	!
 
 Breezy	A
 and	&
-67	$
+1000	$
 F	N
 at	P
 Jacksonville	^
@@ -4830,13 +4830,13 @@ from	P
 the	D
 Southwest	N
 at	P
-23.0	$
+1000	$
 gusting	V
 to	P
-31.1	$
+1000	$
 MPH	N
 (	,
-20	$
+1000	$
 gust	N
 http	U
 
@@ -4865,10 +4865,10 @@ Lufkin	^
 TX	^
 http	U
 
-#glee	^
+#hashtag	^
 !!	!
 
-#NBA	#
+#hashtag	#
 :)	E
 
 You	O
@@ -4938,7 +4938,7 @@ the	D
 world	N
 ??	,
 
-5	$
+1000	$
 .	,
 The	D
 Mayonnaise	N
@@ -4995,9 +4995,9 @@ everyone	N
 thinks	V
 you're	L
 crying	V
-#ItsThingsInLife	#
+#hashtag	#
 
-#uWasCoolUntil	G
+#hashtag	G
 you	O
 unfollowed	V
 me	O
@@ -5067,7 +5067,7 @@ faster	R
 !	,
 -	G
 @USER	@
-#MeAtSchool	#
+#hashtag	#
 
 @USER	@
 @USER	@
@@ -5150,8 +5150,8 @@ Inc	^
 St.	G
 ...	~
 http	U
-#missouri	#
-#jobs	#
+#hashtag	#
+#hashtag	#
 
 @USER	@
 pauly	^
@@ -5192,7 +5192,7 @@ and	&
 got	V
 :	,
 part	N
-7	$
+1000	$
 -	,
 You	O
 Can't	V
@@ -5221,7 +5221,7 @@ tho	R
 haha	!
 !!	,
 
-1st	A
+1000	A
 rule	N
 of	P
 waking	V
@@ -5412,7 +5412,7 @@ one	$
 !	,
 
 Got	V
-#college	N
+#hashtag	N
 admissions	N
 questions	N
 ?	,
@@ -5420,7 +5420,7 @@ Ask	V
 them	O
 tonight	R
 during	P
-#CampusChat	^
+#hashtag	^
 I'm	L
 looking	V
 forward	R
@@ -5483,7 +5483,7 @@ flirty	A
 aprons	N
 mother's	^
 day	^
-40%	$
+1000	$
 off	R
 sale	N
 ,	,
@@ -5500,7 +5500,7 @@ a	D
 lil	R
 sad	A
 about	P
-#HC10	N
+#hashtag	N
 ...	,
 <<	~
 y	R
@@ -5547,7 +5547,7 @@ Screamin	V
 http	U
 
 O	!
-#stfu	!
+#hashtag	!
 RT	~
 @USER	@
 :	~
@@ -5582,13 +5582,13 @@ MINAJ	^
 THROUGH	P
 ME”	O
 http	U
-#NickiMinaj	#
+#hashtag	#
 
 RT	~
 @USER	@
 One	$
 down	P
-81	$
+1000	$
 to	P
 go	V
 good	A
@@ -5620,7 +5620,7 @@ RT	~
 @USER	@
 :	~
 @USER	@
-#Caprica	^
+#hashtag	^
 spinoff	N
 for	P
 Clarice	^
@@ -5629,10 +5629,10 @@ How	R
 I	O
 Met	V
 Your	D
-2	$
+1000	$
 Mothers	N
 and	&
-3	$
+1000	$
 Fathers	N
 .	,
 --	~
@@ -5647,7 +5647,7 @@ text	V
 me	O
 :)	E
 
-#TDFAMILY	#
+#hashtag	#
 YOU	O
 MUST	V
 CONTACT	V
@@ -5789,7 +5789,7 @@ afford	V
 a	D
 barn	N
 .	,
-#16andpregnant	#
+#hashtag	#
 
 @USER	@
 I	O
@@ -5802,7 +5802,7 @@ to	P
 make	V
 it	T
 .	,
-#backchannel	#
+#hashtag	#
 
 RT	~
 @USER	@
@@ -5811,7 +5811,7 @@ Who	O
 wants	V
 some	D
 Fable	^
-3	$
+1000	$
 codes	N
 ?	,
 RT	~
@@ -5838,8 +5838,8 @@ and	&
 stickers	N
 come	V
 in	P
-#tomorrow	N
-#BuzzNtheBurgh	#
+#hashtag	N
+#hashtag	#
 
 It	O
 is	V
@@ -5871,13 +5871,13 @@ RT	~
 @USER	@
 :	~
 Looking	V
-4	P
+1000	P
 a	D
 new	A
 ride	N
 ?	,
 (	,
-#Purrsuit	N
+#hashtag	N
 Team	N
 @USER	@
 ,	,
@@ -6036,7 +6036,7 @@ next	A
 week	N
 lol	!
 
-#howcome	L
+#hashtag	L
 condoms	N
 smell	V
 so	R
@@ -6166,9 +6166,9 @@ Rain	N
 RT	~
 @USER	@
 :	~
-#prayforindonesia	#
-#prayforindonesia	#
-#prayforindonesia	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
 :)	E
 
 @USER	@
@@ -6216,7 +6216,7 @@ doesn't	V
 have	V
 one	$
 ?	,
-#mysteriesofHOOPS	#
+#hashtag	#
 
 Q	N
 :	,
@@ -6280,9 +6280,9 @@ with	P
 Bela	^
 !	,
 (@	P
-48	$
-1221	$
-6th	^
+1000	$
+1000	$
+1000	^
 Ave	^
 )	,
 http	U
@@ -6327,7 +6327,7 @@ to	P
 the	D
 Kappa	^
 with	P
-4	$
+1000	$
 Swangas	N
 and	&
 Adaptors	N
@@ -6466,7 +6466,7 @@ tuesss	^
 Great	A
 Review	N
 on	P
-#JBSpinshttp	#
+#hashtag	#
 ://	U
 jbspins.blogspot.com/2010/10/fandom-love-saturday-nightmares.html	U
 
@@ -6532,8 +6532,8 @@ in	P
 time	N
 for	P
 my	D
-#Colts	^
-#MNF	^
+#hashtag	^
+#hashtag	^
 game	N
 siiiiiced	!
 
@@ -6586,7 +6586,7 @@ we	O
 aint	V
 chumps	N
 
-#shoutout	N
+#hashtag	N
 to	P
 the	D
 nigga	N
@@ -6704,7 +6704,7 @@ keys	N
 What's	L
 next	R
 ..	,
-#js	#
+#hashtag	#
 
 Then	R
 Brooks	^
@@ -6726,13 +6726,13 @@ is	V
 Dreams	N
 ..	,
 
-#NowPlaying	#
+#hashtag	#
 Beneath	P
 The	D
 Surface	N
 :	E
 )	E
-#ThesekidsknowDeathCore	#
+#hashtag	#
 
 Tomorrow	N
 ...	,
@@ -6743,9 +6743,9 @@ on	P
 Rogers	^
 TV	N
 from	P
-10	$
+1000	$
 –	P
-11:30	$
+1000	$
 a.m.	N
 If	P
 you	O
@@ -6755,7 +6755,7 @@ we'll	L
 be	V
 back	R
 at	P
-3:00	$
+1000	$
 p.m.	N
 ,	,
 and	&
@@ -6843,7 +6843,7 @@ haha	!
 
 Northrop	^
 Grumman	^
-3Q	N
+1000	N
 profit	N
 rises	V
 ,	,
@@ -6955,7 +6955,7 @@ were	V
 you	O
 fired	V
 
-8%	$
+1000	$
 of	P
 usa	^
 has	V
@@ -6973,10 +6973,10 @@ could	V
 make	V
 wool	N
 soakers	N
-#fluffntreat	#
+#hashtag	#
 
 @USER	@
-17	$
+1000	$
 
 LMFAOOOOOOOOOOOOOOO	!
 TANAYA	^
@@ -6991,7 +6991,7 @@ LOLLIPOP	N
 Talking	N
 points	N
 ?	,
-#RobFord	^
+#hashtag	^
 has	V
 a	D
 new	A
@@ -7011,7 +7011,7 @@ of	P
 wasting	V
 it	O
 .	,
-#voteto	#
+#hashtag	#
 
 @USER	@
 thnx	N
@@ -7057,7 +7057,7 @@ I	O
 bet	V
 !	,
 haha	!
-#teamceltics	^
+#hashtag	^
 yesterday	N
 !	,
 Clowns	N
@@ -7065,10 +7065,10 @@ Clowns	N
 RT	~
 @USER	@
 :	~
-#teamheat	^
+#hashtag	^
 at	P
 Philly	^
-2nite	N
+1000	N
 ,	,
 let's	L
 go	V
@@ -7089,7 +7089,7 @@ you	O
 baby	N
 brother	N
 	G
-20	$
+1000	$
 x	G
 
 Support	V
@@ -7099,7 +7099,7 @@ Indonesia	^
 ,	,
 add	V
 a	D
-#twibbon	N
+#hashtag	N
 to	P
 your	D
 avatar	N
@@ -7107,7 +7107,7 @@ now	R
 !	,
 -	G
 http	U
-#PrayForIndonesia	#
+#hashtag	#
 
 These	O
 refs	N
@@ -7169,14 +7169,14 @@ lol	!
 
 She	O
 got	V
-2b	V
+1000	V
 good	A
 looking	A
 cuz	P
 she	O
 so	R
 hard	A
-2	P
+1000	P
 please	V
 
 Umm	!
@@ -7254,7 +7254,7 @@ McDs	^
 drive	N
 thru	N
 for	P
-30	$
+1000	$
 miles	N
 ...	,
 fml	!
@@ -7291,11 +7291,11 @@ Ritchie's	Z
 fairness	N
 praised	V
 by	P
-5	$
+1000	$
 MN	^
 papers	N
 .	,
-#MNpolitics	#
+#hashtag	#
 
 @USER	@
 THANK	V
@@ -7306,7 +7306,7 @@ Lamar	^
 
 RT	~
 @USER	@
-#teamgreen	#
+#hashtag	#
 !	,
 
 Imma	L
@@ -7389,7 +7389,7 @@ Super	^
 Siblings	^
 :	,
 http	U
-#webcomics	#
+#hashtag	#
 
 I'm	L
 at	P
@@ -7397,14 +7397,14 @@ Barnes	^
 &	&
 Noble	^
 (	,
-6501	$
+1000	$
 N	^
 .	,
 Grape	^
 Road	^
 ,	,
 Suite	^
-1200	$
+1000	$
 ,	,
 Mishawaka)	^
 .	,
@@ -7436,13 +7436,13 @@ the	D
 movie	N
 drops	V
 March	^
-17th	$
+1000	$
 .	,
 Wrote	V
 the	D
 script	N
 in	P
-09	$
+1000	$
 '	,
 way	R
 before	P
@@ -7452,7 +7452,7 @@ made	V
 his	D
 movie	N
 .	,
-#FrosB4Hoes	#
+#hashtag	#
 -Biggity	!
 
 @USER	@
@@ -7473,7 +7473,7 @@ sleep	V
 RT	~
 @USER	@
 :	~
-#prayforindonesia	#
+#hashtag	#
 
 @USER	@
 smfdreads	!
@@ -7523,7 +7523,7 @@ out	T
 the	D
 house	N
 
-5	$
+1000	$
 Course	N
 Tasting	N
 Menu	N
@@ -7538,10 +7538,10 @@ Donaudy	^
 Songs	N
 ,	,
 +	&
-2	$
+1000	$
 musical	A
 options	N
-2night	R
+1000	R
 in	P
 Jersey	^
 City	^
@@ -7627,7 +7627,7 @@ Just	R
 entered	V
 the	D
 @USER	@
-12	$
+1000	$
 Weeks	N
 of	P
 Christmas	^
@@ -7636,7 +7636,7 @@ This	D
 week's	S
 prizes	N
 :	,
-10	$
+1000	$
 Nintendo	^
 Wiis	^
 -	G
@@ -7691,7 +7691,7 @@ better	A
 .	,
 Mags	^
 '	,
-09	$
+1000	$
 Lapierre	^
 BTG	!
 http	U
@@ -7703,12 +7703,12 @@ need	V
 sushi	N
 :)	E
 
-#warriors	^
+#hashtag	^
 first	A
 game	N
 on	P
 the	D
-27th	$
+1000	$
 vs	P
 .	,
 Houston	^
@@ -7735,13 +7735,13 @@ i	G
 http	U
 
 SEE	^
-2010	$
+1000	$
 Agenda	N
 -	,
 This	D
 year	N
 SEE	^
-2010	$
+1000	$
 will	V
 feature	V
 four	$
@@ -7836,7 +7836,7 @@ he	O
 @USER	@
 Protester	N
 had	V
-4	$
+1000	$
 men	N
 tackle	V
 her	O
@@ -7868,7 +7868,7 @@ Does	V
 anyone	N
 have	V
 a	D
-#directbuy	^
+#hashtag	^
 membership	N
 ?	,
 Is	V
@@ -7877,9 +7877,9 @@ really	R
 worth	A
 it	O
 ?	,
-#homerenovation	#
-#renovation	#
-#yyc	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
 
 hehehe	!
 its	L
@@ -7903,7 +7903,7 @@ wondering…is	G
 he	O
 dating	V
 a	D
-12	$
+1000	$
 foot	N
 model	N
 chick	N
@@ -7953,7 +7953,7 @@ name	N
 Makes	V
 the	D
 story	N
-1,000	$
+1000	$
 ...	~
 
 RT	~
@@ -8028,7 +8028,7 @@ Mail	^
 )	,
 http	U
 
-14:14	$
+1000	$
 
 Benadryl	^
 put	V
@@ -8081,7 +8081,7 @@ support	V
 @USER	@
 to	P
 help	V
-#fairtrade	A
+#hashtag	A
 workers	N
 and	&
 farmers	N
@@ -8137,8 +8137,8 @@ ugly	A
 ones	N
 kiss	V
 .	,
-#realtalk	#
-#nasty	#
+#hashtag	#
+#hashtag	#
 
 RT	~
 @USER	@
@@ -8205,13 +8205,13 @@ sky	N
 .	,
 
 always	R
-#PrayForIndonesia	G
+#hashtag	G
 
 @USER	@
 Its	L
 goin	V
 DOWN	R
-4	P
+1000	P
 Halloween	^
 @	P
 REIGN	^
@@ -8219,7 +8219,7 @@ LOUNGE	^
 !!	,
 $1000	$
 GIVEAWAY	N
-4	P
+1000	P
 the	D
 best	A
 costume	N
@@ -8251,13 +8251,13 @@ SNICKERS	^
 and	&
 a	D
 Lemonade	N
-#smh	G
+#hashtag	G
 damn	!
 ya	!
 boi	N
 on	P
 that	D
-#undergradBUDGET	N
+#hashtag	N
 
 @USER	@
 i	O
@@ -8271,7 +8271,7 @@ someone	N
 else	R
 -_-	E
 
-2and	R
+1000	R
 fav	A
 line	N
 from	P
@@ -8288,7 +8288,7 @@ I'll	L
 cut	V
 you	O
 ."	,
-#Glee	#
+#hashtag	#
 
 ♥	E
 τнänκ	V
@@ -8314,7 +8314,7 @@ Nort-Duncanville	^
 ,	,
 TX-	^
 http	U
-#jobs	#
+#hashtag	#
 
 Next	A
 week	N
@@ -8331,9 +8331,9 @@ interested	V
 -	,
 Monday	^
 Nov	^
-1st	$
+1000	$
 at	P
-8:30	$
+1000	$
 am	N
 and	&
 Wednesday	N
@@ -8347,7 +8347,7 @@ RT	~
 RT	~
 @USER	@
 :	~
-#random	#
+#hashtag	#
 ii	O
 love	V
 how	R
@@ -8360,8 +8360,8 @@ with	P
 the	D
 singing	V
 on	P
-#HawthorneNigga	#
-#noelton	#
+#hashtag	#
+#hashtag	#
 -	,
 ...	~
 
@@ -8374,7 +8374,7 @@ are	V
 going	V
 to	P
 our	D
-1st	A
+1000	A
 @USER	@
 meeting	N
 today	N
@@ -8419,12 +8419,12 @@ via	P
 @USER	@
 )	,
 
-#Arcticmonkeys	#
+#hashtag	#
 -ibetyoulookgoodonthedancefloor	G
 
-#Offthysss	#
+#hashtag	#
 -	,
-2tO	G
+1000	G
 Daa	D
 Morniinqqqq	N
 
@@ -8494,9 +8494,9 @@ disagrees	V
 is	V
 a	D
 fucking	A
-#herb	N
-#mark	N
-#trickassbuster	N
+#hashtag	N
+#hashtag	N
+#hashtag	N
 
 Allllllllllll	X
 these	D
@@ -8544,7 +8544,7 @@ sell	V
 the	D
 white	A
 iPhone	^
-4	$
+1000	$
 .	,
 Ever	R
 .	,
@@ -8612,13 +8612,13 @@ a	D
 good	A
 massage	N
 
-6	$
+1000	$
 tips	N
 to	P
 save	V
 gas	N
 &	&
-10	$
+1000	$
 tips	N
 to	P
 keep	V
@@ -8647,7 +8647,7 @@ Ring	N
 ceremony	N
 baby	N
 !	,
-#lakers	#
+#hashtag	#
 
 RT	~
 @USER	@
@@ -8683,7 +8683,7 @@ kidding	V
 me	O
 ,	,
 an	D
-18	$
+1000	$
 point	N
 Boston	^
 lead	N
@@ -8728,7 +8728,7 @@ On	P
 Four	^
 Loko	^
 :	,
-10	$
+1000	$
 Reasons	N
 Not	R
 To	P
@@ -8836,7 +8836,7 @@ I'm	L
 good	A
 u	O
 need	V
-2	P
+1000	P
 c	V
 this	D
 meat.org	U
@@ -8880,7 +8880,7 @@ wit	P
 da	D
 homiessssssssss	N
 "	,
-#clueless	#
+#hashtag	#
 
 yay	!
 dad	^
@@ -9064,7 +9064,7 @@ section	N
 really	R
 enjoyed	V
 the	D
-8th	A
+1000	A
 grade	N
 class	N
 today	N
@@ -9074,7 +9074,7 @@ forward	R
 to	P
 the	D
 next	A
-6	$
+1000	$
 weeks	N
 with	P
 them	O
@@ -9093,7 +9093,7 @@ thanks	!
 !	,
 
 Gothtober	^
-#BLANKtober	#
+#hashtag	#
 
 Bbm	^
 yawn	N
@@ -9101,7 +9101,7 @@ face	N
 *	,
 Man	!
 that	D
-#napflow	N
+#hashtag	N
 felt	V
 so	R
 refreshing	A
@@ -9121,7 +9121,7 @@ is	V
 great	A
 find	N
 !	,
-#TAG	#
+#hashtag	#
 
 RT	~
 @USER	@
@@ -9130,10 +9130,10 @@ BLACK	^
 PARTY	^
 HITS	V
 POWER	^
-98	$
+1000	$
 TODOAY	R
 !	,
-7046614311	$
+1000	$
 FOR	P
 PARTY	N
 INFO	N
@@ -9404,7 +9404,7 @@ to	P
 develop	V
 metrics	N
 for	P
-#econdev	N
+#hashtag	N
 http	U
 
 @USER	@
@@ -9422,7 +9422,7 @@ to	P
 enjoy	V
 it	O
 too	R
-#fpsweep1026	#
+#hashtag	#
 
 I	O
 got	V
@@ -9488,7 +9488,7 @@ SEATTLE	^
 Saturday	^
 ,	,
 November	^
-6	$
+1000	$
 I	O
 bring	V
 my	D
@@ -9527,13 +9527,13 @@ we	O
 sell	V
 inks	N
 for	P
-60-80%	$
+1000	$
 Off	P
 retail	N
 price	N
 !	,
 
-#LebronShould	M
+#hashtag	M
 know	V
 his	D
 only	A
@@ -9583,14 +9583,14 @@ Shit	!
 Just	R
 heard	V
 the	D
-#DOLCE	^
+#hashtag	^
 commercial	N
 on	P
-101.1	$
+1000	$
 !	,
 
 stfu	!
-#teamceltics	^
+#hashtag	^
 IS	V
 NOT	R
 silent	A
@@ -9611,7 +9611,7 @@ Never	R
 Sleep	V
 !	,
 always	R
-#prayforindonesia	G
+#hashtag	G
 
 :(((	E
 
@@ -9641,7 +9641,7 @@ shit	N
 ,	,
 ask	V
 me	O
-4	P
+1000	P
 a	D
 tip	N
 I	O
@@ -9649,7 +9649,7 @@ told	V
 him	O
 get	V
 lost	A
-#nshit	#
+#hashtag	#
 
 @USER	@
 did	V
@@ -9658,7 +9658,7 @@ send	V
 Brandon	^
 in	T
 a	D
-3rd	A
+1000	A
 time	N
 ?	,
 
@@ -9723,7 +9723,7 @@ doors	N
 for	P
 ladies	N
 --	,
-#TrueStory	#
+#hashtag	#
 
 RT	~
 @USER	@
@@ -9740,7 +9740,7 @@ d	D
 choir	N
 at	P
 church	N
-#Whodoesthat	G
+#hashtag	G
 --	~
 Every	D
 muh`fuggah	N
@@ -9976,7 +9976,7 @@ the	D
 season	N
 for	P
 the	D
-49ers	^
+1000	^
 ...	,
 he's	L
 gonna	V
@@ -10062,8 +10062,8 @@ Bommm	!
 Dia	!
 !	,
 
-#RayRay	#
-#ThatIsAll	#
+#hashtag	#
+#hashtag	#
 !.	,
 
 @USER	@
@@ -10149,7 +10149,7 @@ by	P
 Lawrence	^
 Welk	^
 
-#TeamCeltics	#
+#hashtag	#
 .	,
 Lakers	^
 we	O
@@ -10344,7 +10344,7 @@ RT	~
 @USER	@
 A	D
 Womans	S
-#Love	N
+#hashtag	N
 will	V
 never	R
 die/	V
@@ -10375,7 +10375,7 @@ Video	N
 :	,
 Oct	^
 .	,
-27	$
+1000	$
 (	,
 Bloomberg	^
 )	,
@@ -10436,7 +10436,7 @@ all	D
 I	O
 see	V
 is	V
-#teamlakers	^
+#hashtag	^
 ...	,
 question	N
 is	V
@@ -10452,14 +10452,14 @@ chrisdmuchris	^
 
 Yup	!
 about	P
-35	$
+1000	$
 deep	A
 RT	~
 @USER	@
 So	R
 I	O
 heard	V
-#OP	^
+#hashtag	^
 will	V
 be	V
 deep	A
@@ -10615,7 +10615,7 @@ for	P
 real	A
 is	V
 "	,
-0	$
+1000	$
 ".	,
 Me	O
 Jada	^
@@ -10769,7 +10769,7 @@ no	!
 I	O
 brought	V
 office	^
-2008	$
+1000	$
 for	P
 Mac	^
 .	,
@@ -10780,7 +10780,7 @@ you	O
 kill	V
 me	O
 ,	,
-4-8	$
+1000	$
 
 I	O
 don't	V
@@ -10901,9 +10901,9 @@ RT	~
 Today	N
 thru	P
 Oct	^
-30	$
+1000	$
 get	V
-30%	$
+1000	$
 OFF	P
 select	A
 StriVectin	^
@@ -10917,10 +10917,10 @@ THIS	D
 &	&
 Follow	V
 to	P
-#win	V
+#hashtag	V
 Discovery	N
 Kit	N
-#giveaway	N
+#hashtag	N
 
 @USER	@
 Yeah	!
@@ -10936,7 +10936,7 @@ thank	V
 you	O
 lol	!
 
-#uzeeeit	#
+#hashtag	#
 RT	~
 @USER	@
 Why	R
@@ -11155,7 +11155,7 @@ care	N
 of	P
 me	O
 ;	,
-#sicktweet	#
+#hashtag	#
 
 RT	~
 @USER	@
@@ -11175,10 +11175,10 @@ ones	N
 that	D
 are	V
 hardest	R
-2	P
+1000	P
 get	V
 through	P
-2	P
+1000	P
 .	,
 Be	V
 patient	A
@@ -11201,7 +11201,7 @@ eatpraylovecollab	^
 RT	~
 @USER	@
 :	~
-#ThirstyNiggas	#
+#hashtag	#
 :	,
 Text	V
 you	O
@@ -11280,7 +11280,7 @@ stab	V
 that	D
 ??"	,
 ;-p	E
-#nowplaying	#
+#hashtag	#
 
 Subby	^
 Dubby	^
@@ -11317,7 +11317,7 @@ call	V
 it	O
 a	D
 comeback	N
-31	$
+1000	$
 for	P
 @USER	@
 good	A
@@ -11390,12 +11390,12 @@ that	D
 :)	E
 
 Have	V
-#PR	N
+#hashtag	N
 pros	N
 noticed	V
 this	D
 like	P
-#HR	N
+#hashtag	N
 pros	N
 have	V
 ?	,
@@ -11414,7 +11414,7 @@ comment	V
 :	,
 http	U
 
-#ManLaw	#
+#hashtag	#
 BROS	N
 OVA	P
 HOES	N
@@ -11489,7 +11489,7 @@ lmao	!
 RT	~
 @USER	@
 :	~
-#ialreadytoldyou	G
+#hashtag	G
 I	O
 dont	V
 like	V
@@ -11562,7 +11562,7 @@ i	O
 thought	V
 of	P
 u	O
-2day	N
+1000	N
 &	&
 relized	V
 i	O
@@ -11624,7 +11624,7 @@ Home	N
 
 Holla	!
 for	P
-#humpday	N
+#hashtag	N
 
 I	O
 uploaded	V
@@ -11650,10 +11650,10 @@ Tags	N
 -	,
 Set	N
 of	P
-12	$
+1000	$
 :	,
 $	G
-4.25	$
+1000	$
 Run	V
 ,	,
 run	V
@@ -11715,8 +11715,8 @@ Made	V
 With	P
 Real	A
 Cheese	N
-#haiku	#
-#mooku	#
+#hashtag	#
+#hashtag	#
 
 i	O
 heart	V
@@ -11750,14 +11750,14 @@ cool	A
 ass	N
 asian	A
 officer	N
-4	P
-#1	$
+1000	P
+#hashtag	$
 not	R
 runnin	V
 my	D
 license	N
 and	&
-#2	$
+#hashtag	$
 not	R
 takin	V
 dru	N
@@ -11769,7 +11769,7 @@ Thank	V
 u	O
 God	^
 .	,
-#amen	#
+#hashtag	#
 
 So	P
 I	O
@@ -11821,7 +11821,7 @@ scared	A
 of	P
 you	O
 !	,
-#gohead	#
+#hashtag	#
 
 @USER	@
 @USER	@
@@ -11869,7 +11869,7 @@ lost	V
 my	D
 respect	N
 !	,
-#thatshowitis	#
+#hashtag	#
 
 Wow	!
 deep	A
@@ -11908,8 +11908,8 @@ something	N
 ..	,
 smh	G
 
-29p	N
-11r	N
+1000	N
+1000	N
 Pal	^
 Gasol	^
 went	V
@@ -11920,8 +11920,8 @@ off	P
 @USER	@
 yea	!
 from	P
-7-to	$
-1	$
+1000	$
+1000	$
 lol	!
 
 I	O
@@ -12072,13 +12072,13 @@ Like	P
 @USER	@
 LOLOLOLOL	!
 :	E
-3	E
+1000	E
 
 RT	~
 AMBER	A
 ALERT	N
 :	~
-15	$
+1000	$
 year	A
 old	A
 MI	^
@@ -12086,9 +12086,9 @@ Girl	N
 who	O
 was	V
 Abducted	V
-10.27	$
+1000	$
 .	,
-10	$
+1000	$
 !	,
 Look	V
 at	P
@@ -12143,7 +12143,7 @@ Departure	N
 of	P
 PERALTA	^
 at	P
-17:27	$
+1000	$
 
 happy	A
 birthday	N
@@ -12151,7 +12151,7 @@ to	P
 me	O
 bitches	N
 !!!	,
-23	$
+1000	$
 is	V
 the	D
 lucky	A
@@ -12255,7 +12255,7 @@ Ooh	!
 ,	,
 That	D
 Was	V
-#champ	N
+#hashtag	N
 Of	P
 Me	O
 !	,
@@ -12519,18 +12519,18 @@ condom	N
 while	P
 packing	V
 a	D
-4	$
+1000	$
 inch	N
 dick	N
-#WhoDoesThat	#
+#hashtag	#
 -----	~
 LMFAO	!
 ...	,
-#DamnShame	#
+#hashtag	#
 ...	,
 
 LMMFFO	!
-#youreaninnovator	G
+#hashtag	G
 RT	~
 @USER	@
 @USER	@
@@ -12541,7 +12541,7 @@ a	D
 dummy	N
 busy	A
 ...	,
-#RTthis	G
+#hashtag	G
 
 RT	~
 @USER	@
@@ -12589,7 +12589,7 @@ Botox	^
 and	&
 both	D
 get	V
-20%	$
+1000	$
 OFF	P
 !!!!!	,
 
@@ -12601,12 +12601,12 @@ wit	P
 the	D
 charms	Z
 blood	N
-#dontJudgeMe	#
+#hashtag	#
 lol	!
 http	U
 
-#cdnleft	#
-#cdnprog	#
+#hashtag	#
+#hashtag	#
 Canada	^
 Has	V
 a	D
@@ -12627,7 +12627,7 @@ Fascinating	A
 to	P
 ...	~
 http	U
-#cdnpoli	#
+#hashtag	#
 
 @USER	@
 miss	V
@@ -12646,7 +12646,7 @@ finishing	V
 s	G
 AFTERMATH	N
 ..	,
-11	$
+1000	$
 days	N
 until	P
 we	O
@@ -12676,14 +12676,14 @@ know	V
 RT	~
 @USER	@
 :	~
-8	$
+1000	$
 days	N
 until	P
 they	O
-#FreeWeezy	G
+#hashtag	G
 .	,
 Shoutout	V
-#FreeWeezy	#
+#hashtag	#
 all	D
 day	N
 everyday	N
@@ -12783,7 +12783,7 @@ nah	!
 man	N
 your	L
 a	D
-#biebro	N
+#hashtag	N
 don't	V
 think	V
 I	O
@@ -12882,7 +12882,7 @@ meltiiinngggg	A
 -->	G
 http	U
 
-#Celtics	^
+#hashtag	^
 looking	V
 pretty	R
 beasty	A
@@ -13084,7 +13084,7 @@ motivational	A
 
 Man	!
 da	D
-#Lakers	^
+#hashtag	^
 have	V
 a	D
 fucking	R
@@ -13165,7 +13165,7 @@ ran	V
 into	P
 Kim	^
 Kardashian	^
-3	$
+1000	$
 times	N
 !!!	,
 Next	A
@@ -13183,7 +13183,7 @@ RT	~
 @USER	@
 :	~
 .	,
-#walesaid	#
+#hashtag	#
 dt	G
 @USER	@
 should	V
@@ -13192,7 +13192,7 @@ DOWNTOWN	N
 !	,
 Lol	!
 !!..	,
-#jammy	#
+#hashtag	#
 -->	~
 LMAO	!
 !!	,
@@ -13213,8 +13213,8 @@ in	P
 NYC	^
 ?	,
 
-#LB	#
-#news	#
+#hashtag	#
+#hashtag	#
 :	,
 Silverado	^
 Park	^
@@ -13248,7 +13248,7 @@ Gaza	^
 border	N
 http	U
 
-#win	V
+#hashtag	V
 Grave	^
 Witch	^
 by	P
@@ -13263,7 +13263,7 @@ City	N
 -	,
 Jefferson	^
 Starship	^
-#nowplaying	#
+#hashtag	#
 
 ╚✰ѕнoυтoυт'ѕ™✰╝>>>>	N
 @USER	@
@@ -13299,7 +13299,7 @@ lunch	N
 at	P
 lp	^
 with	P
-2	$
+1000	$
 great	A
 &	&
 funny	A
@@ -13322,7 +13322,7 @@ parkinsons	^
 RT	~
 @USER	@
 :	~
-#Shoutouts	#
+#hashtag	#
 to	P
 @USER	@
 she	O
@@ -13342,7 +13342,7 @@ for	P
 life	N
 !!	,
 «	~
-#k	E
+#hashtag	E
 -yes	!
 !!	,
 ♥	V
@@ -13362,7 +13362,7 @@ echoing	A
 silence	N
 from	P
 the	D
-#LieToMe	^
+#hashtag	^
 production	N
 team	N
 .	,
@@ -13426,7 +13426,7 @@ http	U
 
 RT	~
 @USER	@
-#imsoMoCity	#
+#hashtag	#
 ....	,
 RT	~
 @USER	@
@@ -13452,7 +13452,7 @@ fall	V
 make	V
 sure	A
 it's	L
-4	P
+1000	P
 someone	N
 brave	A
 enough	R
@@ -13466,13 +13466,13 @@ keep	V
 standing	V
 &	&
 wait	V
-4	P
+1000	P
 the	D
 one	$
 who	O
 IS	V
 !	,
-#	G
+#hashtag	G
 ...	~
 
 Plan	^
@@ -13539,16 +13539,16 @@ is	V
 too	R
 important	A
 .	,
-#dontwait	V
+#hashtag	V
 until	P
 it’s	L
 too	R
 late	A
 .	,
 http	U
-#nvsen	#
+#hashtag	#
 
-#nowplaying	#
+#hashtag	#
 Lately-	R
 Jodeci's	Z
 version	N
@@ -13651,14 +13651,14 @@ comin	V
 yo	D
 way	N
 in	P
-15	$
+1000	$
 mins	N
 
 Just	R
 watched	V
 Iron	^
 Man	^
-2	$
+1000	$
 ,	,
 what	X
 a	D
@@ -13687,7 +13687,7 @@ too	R
 RT	~
 @USER	@
 :	~
-#howcome	L
+#hashtag	L
 the	D
 prettiest	A
 people	N
@@ -13710,7 +13710,7 @@ ICE	A
 COLD	A
 SHOOTING	N
 
-#oneofmyfollowers	G
+#hashtag	G
 need	V
 dis	D
 ham	N
@@ -13769,7 +13769,7 @@ just	R
 love	V
 a	D
 good	A
-#belt	N
+#hashtag	N
 session	N
 .	,
 
@@ -13840,7 +13840,7 @@ change	V
 their	D
 views	N
 .	,
-#gospelaccordingtolaila	#
+#hashtag	#
 
 @USER	@
 looking	V
@@ -13863,9 +13863,9 @@ Again	R
 http	U
 via	P
 @USER	@
-#antichristian	#
-#endtimes	#
-#fb	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
 
 RT	~
 @USER	@
@@ -13925,7 +13925,7 @@ super	R
 up	P
 close	A
 .	,
-#randomthought	#
+#hashtag	#
 
 And	&
 from	P
@@ -13950,7 +13950,7 @@ video	N
 rigs	N
 for	P
 my	D
-#7D	^
+#hashtag	^
 If	P
 any1	O
 can	V
@@ -13964,12 +13964,12 @@ thatd	L
 be	V
 great	A
 !	,
-#Video	#
-#Ikan	#
-#RedRockMicro	#
-#Zacuto	#
-#IDC	#
-#eBay	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
 
 @USER	@
 iigt	!
@@ -14035,7 +14035,7 @@ NiGGA	N
 AiNT	V
 DOiNT	V
 SHiT	N
-#lMFAO	!
+#hashtag	!
 they	O
 traded	V
 for	P
@@ -14145,13 +14145,13 @@ politicians	N
 like	V
 social	A
 products	N
-#TcoT	#
+#hashtag	#
 Do	V
 you	O
 ?	,
 http	U
 Vote	V
-4	P
+1000	P
 Change	N
 !	,
 
@@ -14179,7 +14179,7 @@ think	V
 i'm	L
 sexy	A
 "	,
-#WhatIAmBeingForcedToListenToInsteadOfTheGameBroadcast	#
+#hashtag	#
 
 @USER	@
 what's	L
@@ -14217,7 +14217,7 @@ RT	~
 and	&
 thank	V
 God	^
-4	P
+1000	P
 deliverance	N
 ....	,
 Hiiiiya	!
@@ -14241,7 +14241,7 @@ Tostitos	^
 cheese	N
 sauce	N
 .	,
-#mmmm	#
+#hashtag	#
 
 RT	~
 @USER	@
@@ -14351,7 +14351,7 @@ tho	R
 ...	,
 im	L
 not	R
-#goingtobedangry	G
+#hashtag	G
 
 Audio	N
 :	,
@@ -14365,7 +14365,7 @@ goes	V
 on	T
 ›	G
 ›	G
-1st	A
+1000	A
 Single”Off	N
 “Lasers’s”	Z
 Album	N
@@ -14373,7 +14373,7 @@ http	U
 
 Overcast	A
 and	&
-55	$
+1000	$
 F	N
 at	P
 Presque	^
@@ -14384,22 +14384,22 @@ Winds	N
 are	V
 South	N
 at	P
-9.2	$
+1000	$
 MPH	N
 (	,
-8	$
+1000	$
 KT)	N
 .	,
 The	D
 humidity	N
 is	V
-88%	$
+1000	$
 .	,
 The	D
 wind	N
 chill	N
 is	V
-52	$
+1000	$
 .	,
 La	G
 http	U
@@ -14411,7 +14411,7 @@ sleep	V
 ,	,
 he	O
 hibernates	V
-12	$
+1000	$
 plus	A
 hours	N
 a	D
@@ -14484,8 +14484,8 @@ believe	V
 
 http	U
 <--	G
-#ICONLOUNGE	^
-257	$
+#hashtag	^
+1000	$
 Trinity	^
 Ave	^
 ,	,
@@ -14561,12 +14561,12 @@ want	V
 the	D
 new	A
 Sims	^
-3	$
+1000	$
 coming	V
 out	T
 for	P
 Xbox	^
-360	$
+1000	$
 -	,
 so	P
 who	O
@@ -14609,9 +14609,9 @@ be	V
 in	P
 full	A
 effect	N
-4	P
+1000	P
 @USER	@
-10/30/10	$
+1000	$
 !	,
 
 RT	~
@@ -14638,7 +14638,7 @@ a	D
 little	A
 while	N
 .	,
-#HuggiesMom	#
+#hashtag	#
 
 @USER	@
 we	O
@@ -14707,7 +14707,7 @@ Yo	!
 it's	L
 Thursday	^
 ,	,
-28th	$
+1000	$
 October	^
 .	,
 Morning	N
@@ -14768,7 +14768,7 @@ pw	N
 I	O
 can	V
 hold	V
-75	$
+1000	$
 cents	N
 in	P
 my	D
@@ -14872,7 +14872,7 @@ this	D
 nigga	N
 right	R
 here	R
-#twitterafterdark	#
+#hashtag	#
 http	U
 
 I'm	L
@@ -15068,7 +15068,7 @@ on	P
 his	D
 jumpshot	N
 lmfao	!
-#TheLakeShow	#
+#hashtag	#
 
 its	L
 really	R
@@ -15124,7 +15124,7 @@ caprisun	^
 in	P
 my	D
 mouth	N
-#hurt	#
+#hashtag	#
 
 @USER	@
 Dig	V
@@ -15174,8 +15174,8 @@ http	U
 RT	~
 @USER	@
 :	~
-#cholera	#
-#haiti	#
+#hashtag	#
+#hashtag	#
 ...	,
 And	&
 how	R
@@ -15217,7 +15217,7 @@ Biodiversity	^
 World	^
 Tour	^
 .	,
-#BWT2010	#
+#hashtag	#
 
 My	D
 pen	N
@@ -15277,13 +15277,13 @@ Photo	N
 http	U
 
 Rejuvenation	N
-101	$
+1000	$
 .	,
 Gas	V
 yourself	O
 up	T
 .	,
-#stringofpositivethoughts	#
+#hashtag	#
 
 @USER	@
 @USER	@
@@ -15313,7 +15313,7 @@ $10	$
 doors	N
 are	V
 at	P
-9:30	$
+1000	$
 pm	N
 .	,
 See	V
@@ -15329,7 +15329,7 @@ street	N
 view	N
 .	,
 http	U
-#intlib10	#
+#hashtag	#
 (	,
 I	O
 am	V
@@ -15370,8 +15370,8 @@ RT	~
 :	~
 Charice	^
 !!	,
-#breakoutmusicartist	#
-#PeoplesChoice	#
+#hashtag	#
+#hashtag	#
 @USER	@
 http	U
 
@@ -15383,7 +15383,7 @@ SKIPPY	!
 congrats	!
 on	P
 the	D
-100k	$
+1000	$
 
 RT	~
 @USER	@
@@ -15432,7 +15432,7 @@ happen	V
 .	,
 http	U
 
-13	$
+1000	$
 hour	N
 day	N
 .	,
@@ -15447,7 +15447,7 @@ iPad	^
 Painting	N
 NYC	^
 http	U
-#mobileartcon	#
+#hashtag	#
 http	U
 ...	,
 http	U
@@ -15508,7 +15508,7 @@ at	P
 Kalamazoo	^
 Gazette	^
 (	,
-401	$
+1000	$
 S	^
 .	,
 Burdick	^
@@ -15594,7 +15594,7 @@ you	O
 ?!	,
 
 @USER	@
-4sho	!
+1000	!
 
 I	O
 got	V
@@ -15622,7 +15622,7 @@ is	V
 already	R
 on	P
 the	D
-106	$
+1000	$
 top	A
 ten	$
 countdown	N
@@ -15690,7 +15690,7 @@ swear	V
 RT	~
 @USER	@
 :	~
-#whatif	O
+#hashtag	O
 People	N
 believed	V
 everything	N
@@ -15832,7 +15832,7 @@ your	D
 domains	N
 for	P
 $	G
-12.99	$
+1000	$
 /year	N
 http	U
 
@@ -15929,7 +15929,7 @@ a	D
 normal	A
 girl	N
 :	E
-3	E
+1000	E
 
 @USER	@
 haha	!
@@ -15982,8 +15982,8 @@ Plot	N
 http	U
 via	P
 @USER	@
-#teaparty	#
-#tcot	#
+#hashtag	#
+#hashtag	#
 
 @USER	@
 http	U
@@ -16027,7 +16027,7 @@ Next	R
 you'll	L
 ask	V
 for	P
-9	$
+1000	$
 yards	N
 of	P
 nylon	N
@@ -16071,7 +16071,7 @@ my	D
 mood	N
 ."	,
 
-#PrayForIndonesia	#
+#hashtag	#
 ,	~
 RT	~
 @USER	@
@@ -16115,7 +16115,7 @@ glory	N
 is	V
 mine	O
 
-#nowwatching	#
+#hashtag	#
 IP	^
 MAN	^
 (	E
@@ -16130,7 +16130,7 @@ MAN	N
 Lmao	!
 OK	!
 !	,
-#pau	#
+#hashtag	#
 bout	P
 work	N
 out	N
@@ -16164,7 +16164,7 @@ I	O
 the	D
 reason	N
 you	O
-#cry	V
+#hashtag	V
 ?	,
 
 RT	~
@@ -16185,7 +16185,7 @@ cares	V
 :-P	E
 
 Thanx	N
-4	P
+1000	P
 follow	V
 @USER	@
 nd	&
@@ -16197,19 +16197,19 @@ Sneaker	^
 Expo	^
 Dec18th	^
 at	P
-330	$
+1000	$
 Ritch	^
 in	P
 SF	^
 from	P
-6pm	$
+1000	$
 to	P
-10pm	$
-18&over	$
+1000	$
+1000	$
 .	,
 From	P
 L.A.	^
-2	P
+1000	P
 da	D
 Bay	^
 !!	,
@@ -16272,7 +16272,7 @@ fun	N
 pouts	V
 *))	,
 
-#nowplaying	V
+#hashtag	V
 -	,
 "	,
 whip	^
@@ -16351,8 +16351,8 @@ doll	N
 -	,
 The…	D
 http	U
-#palin	#
-#teaparty	#
+#hashtag	#
+#hashtag	#
 
 wow	!
 Deja_fckn_Vu	@
@@ -16482,7 +16482,7 @@ lol	!
 
 I	O
 posted	V
-11	$
+1000	$
 photos	N
 on	P
 Facebook	^
@@ -16491,9 +16491,9 @@ the	D
 album	N
 "	,
 October	^
-26	$
+1000	$
 ,	,
-2010	$
+1000	$
 "	,
 http	U
 
@@ -16570,15 +16570,15 @@ in	P
 backseat	N
 ...	,
 http	U
-#fl	#
-#florida	#
-#oops	#
-#dumb	#
-#sex	#
-#dui	#
-#traffic	#
-#news	#
-#police	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
+#hashtag	#
 
 Fmlllll	!
 
