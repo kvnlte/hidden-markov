@@ -78,7 +78,7 @@ RT	~
 RT	~	
 @USER	@	
 :	~	
-Vid	@	
+Vid	^	
 &	&	
 footage	N	
 of	P	
@@ -179,7 +179,7 @@ the	D
 court	N	
 .	,	
 
-Ignite	@	
+Ignite	V	
 to	P	
 Write	^	
 :	,	
@@ -237,7 +237,7 @@ while	P
 it	O	
 lasted	V	
 *	,	
-sighs	U	
+sighs	E	
 
 Gradpics	A	
 Today	N	
@@ -316,7 +316,7 @@ to	P
 develop	V	
 .	,	
 
-pkollar	@	
+pkollar	~	
 :	~	
 @USER	@	
 Really	R	
@@ -366,7 +366,7 @@ with	P
 me	O	
 .	,	
 
-Free	@	
+Free	^	
 1000	$	
 of	P	
 Lindt	D	
@@ -376,8 +376,8 @@ US	^
 )	,	
 http	U	
 
-Pretty	~	
-simple	@	
+Pretty	O	
+simple	V	
 actually	R	
 .	,	
  	L	
@@ -417,7 +417,7 @@ Healdsburg)	^
 .	,	
 http	U	
 
-Prescription	@	
+Prescription	~	
 glasses	O	
 starting	V	
 at	P	
@@ -530,8 +530,8 @@ you	O
 !	,	
 <3	E	
 
-BRICK	@	
-STRONG	!	
+BRICK	^	
+STRONG	^	
 .	,	
 RIP	!	
 EVAN	!	
@@ -601,7 +601,7 @@ Luck	N
 RT	~	
 @USER	@	
 :	~	
-Shout-out	@	
+Shout-out	V	
 to	P	
 @USER	@	
 definition	V	
@@ -618,7 +618,7 @@ means	V
 man	N	
 ???	,	
 «	~	
-Ayyye	@	
+Ayyye	!	
 !	,	
 
 I	O	
@@ -736,13 +736,13 @@ show	N
 #hashtag	#	
 !	,	
 
-Sugary	@	
-Drinks	~	
+Sugary	^	
+Drinks	^	
 May	^	
-Raise	G	
-Diabetes	~	
-Risk	@	
-:	~	
+Raise	^	
+Diabetes	^	
+Risk	^	
+:	,	
 http	U	
 via	P	
 @USER	@	
@@ -795,9 +795,9 @@ $	,
 Bid	N	
 )	,	
 End	^	
-Date	G	
-:	~	
-Tuesday…	@	
+Date	^	
+:	,	
+Tuesday…	G	
 http	U	
 
 I	O	
@@ -859,7 +859,7 @@ your	D
 friend	N	
 lol	!	
 
-Journalists	@	
+Journalists	^	
 and	&	
 Social	^	
 Media	N	
@@ -871,8 +871,8 @@ this	D
 spoof	N	
 out	T	
 of	P	
-Dallas	@	
-:	~	
+Dallas	^	
+:	,	
 http	U	
 
 Lets	L	
@@ -896,8 +896,8 @@ I	O
 smile	V	
 !	,	
 
-Justin	@	
-Bieber’s	!	
+Justin	^	
+Bieber’s	^	
 '	,	
 My	D	
 World	N	
@@ -984,16 +984,16 @@ pic	N
 of	P	
 @USER	@	
 from	P	
-toronto	@	
+toronto	G	
 warped	~	
 .	~	
 http	~	
 <3	~	
 
 @USER	@	
-Tyra	~	
-mail	@	
-...	~	
+Tyra	!	
+mail	!	
+...	,	
 how	R	
 r	V	
 u	O	
@@ -1026,7 +1026,7 @@ reasons	N
 to	P	
 smile	V	
 .	,	
--Unknown	U	
+-Unknown	E	
 
 RT	~	
 @USER	@	
@@ -1155,8 +1155,8 @@ DEAL	V
 WIT	P	
 IT	O	
 #hashtag	V	
-BIG	,	
-HEAD	U	
+BIG	T	
+HEAD	,	
 
 @USER	@	
 funnn	!	
@@ -1336,7 +1336,7 @@ from	P
 the	D	
 upcoming	N	
 @USER	@	
-albums	@	
+albums	~	
 :	~	
 http	~	
 &	~	
@@ -1475,8 +1475,8 @@ withhh	,
 mommma	!	
 !	,	
 
-momma's	~	
-bringing	@	
+momma's	O	
+bringing	V	
 me	O	
 food	N	
 from	P	
@@ -1502,8 +1502,8 @@ release	N
 )	,	
 http	U	
 
-Indiana	~	
-Jones	@	
+Indiana	O	
+Jones	V	
 Movies	O	
 Get	V	
 1000	$	
@@ -1548,8 +1548,8 @@ favorite	N
 Follow	V	
 =>	P	
 @USER	@	
-Attack	~	
-Attack	@	
+Attack	!	
+Attack	!	
 !	,	
 Indonesia	^	
 
@@ -1580,7 +1580,7 @@ my	D
 fault	N	
 .	,	
 
-Debating	@	
+Debating	V	
 if	P	
 i	O	
 should	V	
@@ -1604,7 +1604,7 @@ decisions	!
 RT	~	
 @USER	@	
 :	~	
-d-town	@	
+d-town	!	
 !	,	
 
 Dear	^	
@@ -1622,7 +1622,7 @@ need	V
 of	P	
 you	O	
 
-Yall	@	
+Yall	~	
 sholl	O	
 is	V	
 quiet	T	
@@ -1694,7 +1694,7 @@ firsthand	N
 .	,	
 http	U	
 
-Wait	@	
+Wait	^	
 But	&	
 Why	R	
 Tho	A	
@@ -1756,7 +1756,7 @@ fans	N
 –	,	
 POLL	G	
 ~	~	
-Zoiks	@	
+Zoiks	!	
 !	,	
 Online	A	
 -	,	
@@ -1783,8 +1783,8 @@ Very	R
 smug	A	
 .	,	
 
-Yooo	~	
-wtf	@	
+Yooo	O	
+wtf	V	
 u	O	
 been	V	
 at	P	
@@ -1849,7 +1849,7 @@ doin	V
 RT	~	
 @USER	@	
 :	~	
-Job	@	
+Job	V	
 Of	P	
 The	D	
 Day	N	
@@ -1877,7 +1877,7 @@ http	U
 RT	~	
 @USER	@	
 :	~	
-George	@	
+George	!	
 Soros	O	
 wants	V	
 to	P	
@@ -2015,7 +2015,7 @@ English	T
 RT	~	
 @USER	@	
 :	~	
-LegitMileyC	@	
+LegitMileyC	^	
 1000	$	
 pm	N	
 ಠ◡ಠ	,	
@@ -2109,7 +2109,7 @@ superb	T
 RT	~	
 @USER	@	
 :	~	
-Flyboys	@	
+Flyboys	!	
 !	,	
 James	^	
 franco	^	
@@ -2287,9 +2287,9 @@ all	D
 day	N	
 .	,	
 
-american	@	
-airlines	~	
-discounts	@	
+american	L	
+airlines	A	
+discounts	N	
 from	P	
 sta	^	
 http	U	
@@ -2339,8 +2339,8 @@ everything	N
 lol	!	
 !	,	
 
-Vance	@	
-Breshears	!	
+Vance	^	
+Breshears	^	
 ,	,	
 Jeff	^	
 Otero	^	
@@ -2451,7 +2451,7 @@ yes	!
 !!!	,	
 #hashtag	#	
 
-Inspired	@	
+Inspired	V	
 after	P	
 a	D	
 yummy	A	
@@ -2510,7 +2510,7 @@ refreshing	A
 RT	~	
 @USER	@	
 :	~	
-Pantone	@	
+Pantone	O	
 is	V	
 pleased	T	
 to	P	
@@ -2564,7 +2564,7 @@ lol	!
 
 http	U	
 
-Bet	@	
+Bet	V	
 on	P	
 sports	N	
 with	P	
@@ -2607,9 +2607,9 @@ RT	~
 #hashtag	#	
 http	U	
 
-KY-Sen	@	
-:	~	
-Rand	@	
+KY-Sen	!	
+:	,	
+Rand	^	
 Paul	^	
 followers	N	
 try	V	
@@ -2731,8 +2731,8 @@ Poll	^
 1000	$	
 http	U	
 
-pin	@	
-:	~	
+pin	!	
+:	,	
 1000	$	
 Add	P	
 Me	O	
@@ -2830,7 +2830,7 @@ highways	N
 ...	,	
 http	U	
 
-thx	@	
+thx	V	
 to	P	
 @USER	@	
 check	V	

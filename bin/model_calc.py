@@ -97,16 +97,25 @@ class ModelCalculator:
 
         for word in test_words:
             if word not in trgwords_set:
-                self.__add_emission_counts_for_new_word(word)
-                self.__increment_tag_counts()
+                if word[0:5]!='@USER' and word[0:4]!='http':
+                    self.__add_emission_counts_for_new_word(word)
+                    self.__increment_tag_counts(word)
+                elif word[0:5]=='@USER':
+                    self.e_counts[(word,'@')]+=1
+                    self.tag_counter['@']+=1
+                elif word[0:4]=='http':
+                    self.e_counts[(word,'U')]+=1
+                    self.tag_counter['U']
 
     def __add_emission_counts_for_new_word(self, word):
         for tag in self.tags_seen:
-            self.e_counts[(word, tag)] += 1
+            if tag!='@' and tag!='U':
+                self.e_counts[(word, tag)] += 1
 
-    def __increment_tag_counts(self):
+    def __increment_tag_counts(self,word):
         for tag in self.tag_counter:
-            self.tag_counter[tag] += 1
+            if tag!='@' and tag!='U':
+                self.tag_counter[tag] += 1
 
 
 #### end of ModelCalculator declaration ####
