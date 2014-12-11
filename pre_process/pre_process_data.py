@@ -5,25 +5,25 @@ import re
 # python pre_process_data.py -i train --type train
 # python pre_process_data.py -i dev.in --type test
 
-def pre_process_data(input_file, output_file):
+def pre_process_data(input_file, output_file,data_type):
 	output = []
 
 	with open(input_file, 'r') as f:
 		for line in f:
 			if contains_url(line):
-				replace_url(line, output)
+				replace_url(line, output,data_type)
 
 			elif contains_user(line):
-				replace_user(line, output)
+				replace_user(line, output,data_type)
 
 			elif contains_haha(line):
-				replace_haha(line, output)
+				replace_haha(line, output,data_type)
 
 			elif contains_num(line):
-				replace_num(line, output)
+				replace_num(line, output,data_type)
 
 			elif contains_hashtag(line):
-				replace_hashtag(line, output)
+				replace_hashtag(line, output,data_type)
 
 			else:
 				write(line, output)
@@ -51,8 +51,8 @@ def contains_url(line):
 	else:
 		return False
 
-def replace_url(line, output):
-	if args.type == "train":
+def replace_url(line, output,data_type):
+	if data_type == "train":
 		tag = line.split()[1]
 		edited_line = url + '\t' + tag + '\n'
 		output.append(edited_line)
@@ -72,8 +72,8 @@ def contains_user(line):
 	else:
 		return False
 
-def replace_user(line, output):
-	if args.type == "train":
+def replace_user(line, output,data_type):
+	if data_type == "train":
 		tag = line.split()[1]
 		edited_line = user + '\t' + tag + '\n'
 		output.append(edited_line)
@@ -94,9 +94,9 @@ def contains_haha(line):
 	else:
 		return False
 
-def replace_haha(line, output):
+def replace_haha(line, output,data_type):
 	replacement = "haha"
-	if args.type == "train":
+	if data_type == "train":
 		tag = line.split()[1]
 		edited_line = replacement + '\t' + tag + '\n'
 		output.append(edited_line)
@@ -117,9 +117,9 @@ def contains_num(line):
 	else:
 		return False
 
-def replace_num(line, output):
+def replace_num(line, output,data_type):
 	replacement = "1000"
-	if args.type == "train":
+	if data_type == "train":
 		tag = line.split()[1]
 		edited_line = replacement + '\t' + tag + '\n'
 		output.append(edited_line)
@@ -139,9 +139,9 @@ def contains_hashtag(line):
 	else:
 		return False
 
-def replace_hashtag(line, output):
+def replace_hashtag(line, output,data_type):
 	replacement = "#hashtag"
-	if args.type == "train":
+	if data_type == "train":
 		tag = line.split()[1]
 		edited_line = replacement + '\t' + tag + '\n'
 		output.append(edited_line)
@@ -150,9 +150,9 @@ def replace_hashtag(line, output):
 
 
 
-parser = argparse.ArgumentParser()
-parser.add_argument('-i', dest='i')
-parser.add_argument('--type', dest='type', help='indicate train or test data')
-args = parser.parse_args()
+#parser = argparse.ArgumentParser()
+#parser.add_argument('-i', dest='i')
+#parser.add_argument('--type', dest='type', help='indicate train or test data')
+#args = parser.parse_args()
 
-pre_process_data()
+#pre_process_data()

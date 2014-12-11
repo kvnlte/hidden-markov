@@ -3,6 +3,8 @@ import argparse
 from bin.model_calc import ModelCalculator
 from bin.viterbi_algo import ViterbiAlgorithm
 from bin.compare_tagged_output import compare_tweet_files
+from pre_process.pre_process_data import pre_process_data as prePD
+from pre_process.post_process_data import post_process_data as postPD
 
 parser = argparse.ArgumentParser()
 
@@ -45,17 +47,30 @@ if args.gold_filename is not None:
 else:
   gold_filename = os.path.join('data', 'dev.out')
 
+pptrain=training_data_filename+'.pp'
+prePD(training_data_filename,pptrain,'train')
 
-model = ModelCalculator(training_data_filename)
-model.load_test_file(testdata_filename)
+ppfile_in=testdata_filename+'.pp'
+prePD(testdata_filename,ppfile_in,'test')
+
+ppfile_gold=gold_filename+'.pp'
+prePD(gold_filename,ppfile_gold,'train')
+
+
+
+
+model = ModelCalculator(pptrain)
+model.load_test_file(ppfile_in)
 model.init_model_params()
 
 model.save_model_params(model_params_filename)
 
 viterbi = ViterbiAlgorithm(model)
 viterbi.tag_all_tests()
+output_interm=output_filename+'.int'
+viterbi.save_tagged_tests(output_interm)
 
-viterbi.save_tagged_tests(output_filename)
+postPD(testdata_filename,output_interm,output_filename)
 
 compare_tweet_files(output_filename, gold_filename)
 

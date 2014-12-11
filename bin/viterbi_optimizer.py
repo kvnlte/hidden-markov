@@ -63,29 +63,14 @@ class ViterbiOptimizer:
                     newpath[y]=path[state]+[y]
                 path = newpath
                 
-            #V.append({})
-            #newpath={}
-            #if len(sentence)!=1:
-            #    print t
-            #    print len(V)
-            #    (prob, state) = max((V[t][y]*self.q_params[('STOP',y)],y) for y in self.states)
-            #else:
-            #    print t
-            #    t=0
-            #    print t + 'corrected'
-            #    (prob, state) = max((V[t][y]*self.q_params[('STOP',y)],y) for y in self.states)
-            #V[t+1][y]=prob
-            #newpath[y]=path[state]+[y]
-            #path = newpath
-            #
             n=0
             if len(sentence)!=1:
                 n=t
-            #print_dptable(V)
+
             (prob,state) = max((V[n][y]*self.q_params[('STOP',y)], y) for y in self.states)
             newsentence=[(sentence[i][0],path[state][i]) for i in range(len(path[state]))]
             self.output_tokens.append(newsentence)
-
+        print self.file_out
         output_file = open(self.file_out, 'w')
         final_output = ""
         for row in self.output_tokens:

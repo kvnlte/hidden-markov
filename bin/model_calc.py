@@ -67,12 +67,12 @@ class ModelCalculator:
         self.test_data.tokenize()
 
 
-    def init_model_params(self):
+    def init_model_params(self,bypassOpt=False):
         if self.test_data is None:
             raise RuntimeError("Run load_test_file() before init_model_params")
 
         self.__init_q_params()
-        self.__amend_emission_counts()
+        self.__amend_emission_counts(bypassOpt)
         self.__init_e_params()
 
 
@@ -90,32 +90,31 @@ class ModelCalculator:
             tag = e[1]
             self.e_params[e] = self.e_counts[e] / float(self.tag_counter[tag])
 
-    def __amend_emission_counts(self):      # IMPORTANT: Only run after load_test_file()
+    def __amend_emission_counts(self,bypassOpt):      # IMPORTANT: Only run after load_test_file()
         trgwords_set = frozenset(self.parser.word_counter.keys())
 
         test_words = self.test_data.word_counter.keys()
 
         for word in test_words:
             if word not in trgwords_set:
-                if word[0:5]!='@USER' and word[0:4]!='http':
-                    self.__add_emission_counts_for_new_word(word)
-                    self.__increment_tag_counts(word)
-                elif word[0:5]=='@USER':
-                    self.e_counts[(word,'@')]+=1
-                    self.tag_counter['@']+=1
-                elif word[0:4]=='http':
-                    self.e_counts[(word,'U')]+=1
-                    self.tag_counter['U']
+                self.__add_emission_counts_for_new_word(word,bypassOpt)
+                self.__increment_tag_counts(word,bypassOpt)
 
-    def __add_emission_counts_for_new_word(self, word):
+    def __add_emission_counts_for_new_word(self, word,bypassOpt):
         for tag in self.tags_seen:
-            if tag!='@' and tag!='U':
-                self.e_counts[(word, tag)] += 1
+            if bypassOpt:
+                if tag!='@' and tag!='U':
+                    self.e_counts[(word, tag)] += 1
+            else:
+                self.e_counts[(word,tag)]+=1
 
-    def __increment_tag_counts(self,word):
+    def __increment_tag_counts(self,word,bypassOpt):
         for tag in self.tag_counter:
-            if tag!='@' and tag!='U':
-                self.tag_counter[tag] += 1
+            if bypassOpt:
+                if tag!='@' and tag!='U':
+                    self.tag_counter[tag] += 1
+            else:
+                self.e_counts[(word,tag)]+=1
 
 
 #### end of ModelCalculator declaration ####
