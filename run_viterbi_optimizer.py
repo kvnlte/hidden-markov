@@ -102,7 +102,10 @@ ppfile_in=file_in+'.pp'
 prePD(file_in,ppfile_in,'test')
 
 
+
 if args.p2:
+    os.remove(pptrain)
+    os.remove(ppfile_in)
     pptrain=trg_set_filename
     ppfile_in=file_in
     bypassOpt=False
