@@ -32,7 +32,7 @@ def pre_process_data(input_file, output_file,data_type):
 		for o in output:
 			output_f.write(o)
 
-	print "pre-processed data file written to " + output_file
+	#print "pre-processed data file written to " + output_file
 
 def write(line, output):
 	output.append(line)

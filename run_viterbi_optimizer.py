@@ -131,7 +131,8 @@ output_interm=file_out+'.int'
 
 final_viterbi=ViterbiOptimizer(train_q_params,train_e_params,ppfile_in,output_interm,file_gold,states)
 final_viterbi.tokenize_input()
-final_viterbi.tokenize_gold()
+if args.compare:
+    final_viterbi.tokenize_gold()
 final_viterbi.run()
 #print final_viterbi.start_params
 
@@ -140,6 +141,7 @@ final_viterbi.run()
 
 postPD(file_in,output_interm,file_out)
 
+print '----- Saved file to ' +file_out+' -----'
 
 os.remove(output_interm)
 if args.p3:

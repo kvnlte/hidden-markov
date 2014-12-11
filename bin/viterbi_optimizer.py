@@ -70,7 +70,7 @@ class ViterbiOptimizer:
             (prob,state) = max((V[n][y]*self.q_params[('STOP',y)], y) for y in self.states)
             newsentence=[(sentence[i][0],path[state][i]) for i in range(len(path[state]))]
             self.output_tokens.append(newsentence)
-        print self.file_out
+        #print self.file_out
         output_file = open(self.file_out, 'w')
         final_output = ""
         for row in self.output_tokens:
@@ -81,7 +81,7 @@ class ViterbiOptimizer:
             final_output+= '\n'
         output_file.write(final_output)
         output_file.close()
-        print '----- Tagging Complete. Saved to '+self.file_out+' -----'
+        print '----- Tagging Complete -----'
     
     def compare_accuracy(self):
         totaltags=0
