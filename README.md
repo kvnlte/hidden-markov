@@ -17,3 +17,6 @@ e       | x          | y           | count( y -> x )
 q       | y(i)       | y(i-1)      | count( y(i-1) -> y(i) )
 (none)  | y          | (none)      | count( y )
 
+
+To run challenge:
+python run_viterbi_optimizer.py -i data/combined_train -ti data/test.in -to test.p3.out
